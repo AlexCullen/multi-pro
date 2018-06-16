@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dooubycommon" />
+        <module name="doubycontentdto" />
+        <module name="doubycontentinterface" />
+        <module name="doubycontentservice" />
+        <module name="doubycontentweb" />
+        <module name="doubymanagercontroller" />
+        <module name="doubymanagerdao" />
+        <module name="doubymanagerdto" />
+        <module name="doubymanagerinterface" />
+        <module name="doubymanagerpojo" />
+        <module name="doubymanagerservice" />
+        <module name="doubysolrdao" />
+        <module name="doubysolrdto" />
+        <module name="doubysolrinterface" />
+        <module name="doubysolrpojo" />
+        <module name="doubysolrservice" />
+        <module name="doubysolrweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dooubycommon" target="1.8" />
+      <module name="douby-manager-controller" target="1.8" />
+      <module name="doubycontent" target="1.5" />
+      <module name="doubycontentdto" target="1.8" />
+      <module name="doubycontentinterface" target="1.8" />
+      <module name="doubycontentservice" target="1.8" />
+      <module name="doubycontentweb" target="1.8" />
+      <module name="doubydto" target="1.7" />
+      <module name="doubymanager" target="1.5" />
+      <module name="doubymanagercontroller" target="1.8" />
+      <module name="doubymanagerdao" target="1.8" />
+      <module name="doubymanagerdto" target="1.8" />
+      <module name="doubymanagerinterface" target="1.8" />
+      <module name="doubymanagerpojo" target="1.8" />
+      <module name="doubymanagerservice" target="1.8" />
+      <module name="doubyparent" target="1.5" />
+      <module name="doubysolr" target="1.5" />
+      <module name="doubysolrdao" target="1.8" />
+      <module name="doubysolrdto" target="1.7" />
+      <module name="doubysolrinterface" target="1.8" />
+      <module name="doubysolrpojo" target="1.8" />
+      <module name="doubysolrservice" target="1.8" />
+      <module name="doubysolrweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

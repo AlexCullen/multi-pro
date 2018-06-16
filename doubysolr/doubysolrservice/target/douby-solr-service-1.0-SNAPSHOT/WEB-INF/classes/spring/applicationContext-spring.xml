@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <context:property-placeholder location="classpath:conf/sample.properties"/>
+
+    <import resource="classpath:spring/applicationContext-service.xml"/>
+    <import resource="classpath:spring/applicationContext-dao.xml"/>
+    <import resource="classpath:spring/applicationContext-tran.xml"/>
+
+    <dubbo:application name="doubt-solr-dubbo" owner="cpzh"/>
+
+    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181" timeout="30000"/>
+
+    <dubbo:protocol name="dubbo" port="28380"/>
+
+    <dubbo:service interface="com.douby.solr.service.SolrService" ref="solrServiceImpl"/>
+    <dubbo:service interface="com.douby.solr.service.SolrItemService" ref="solrItemServiceImpl"/>
+</beans>

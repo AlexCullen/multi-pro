@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/doubycontent/doubycontentservice" />
+    <file type="web" url="file://$PROJECT_DIR$/doubycontentweb" />
+    <file type="web" url="file://$PROJECT_DIR$/doubymanager/doubymanagercontroller" />
+    <file type="web" url="file://$PROJECT_DIR$/doubymanager/doubymanagerservice" />
+    <file type="web" url="file://$PROJECT_DIR$/doubymanagercontroller" />
+    <file type="web" url="file://$PROJECT_DIR$/doubysolr/doubysolrservice" />
+    <file type="web" url="file://$PROJECT_DIR$/doubysolrweb" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/doubyparent/pom.xml" />
+        <option value="$PROJECT_DIR$/dooubycommon/pom.xml" />
+        <option value="$PROJECT_DIR$/doubymanager/pom.xml" />
+        <option value="$PROJECT_DIR$/doubymanagercontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/doubydto/pom.xml" />
+        <option value="$PROJECT_DIR$/doubycontent/pom.xml" />
+        <option value="$PROJECT_DIR$/doubycontentweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysolr/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysolrweb/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/doubymanager/doubymanagercontroller/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

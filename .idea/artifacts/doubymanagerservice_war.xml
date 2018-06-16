@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="doubymanagerservice:war">
+    <output-path>$PROJECT_DIR$/doubymanager/doubymanagerservice/target</output-path>
+    <root id="archive" name="douby-manager-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="doubymanagerservice:war exploded" />
+    </root>
+  </artifact>
+</component>

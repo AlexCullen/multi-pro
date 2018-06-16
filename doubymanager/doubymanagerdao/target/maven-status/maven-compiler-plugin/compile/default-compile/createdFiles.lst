@@ -1,0 +1,12 @@
+com\douby\mapper\TbItemCatMapper.class
+com\douby\mapper\TbContentCategoryMapper.class
+com\douby\mapper\TbOrderMapper.class
+com\douby\mapper\TbOrderItemMapper.class
+com\douby\mapper\TbOrderShippingMapper.class
+com\douby\mapper\TbContentMapper.class
+com\douby\mapper\TbItemMapper.class
+com\douby\mapper\TbItemDescMapper.class
+com\douby\mapper\TbUserMapper.class
+com\douby\manager\App.class
+com\douby\mapper\TbItemParamItemMapper.class
+com\douby\mapper\TbItemParamMapper.class

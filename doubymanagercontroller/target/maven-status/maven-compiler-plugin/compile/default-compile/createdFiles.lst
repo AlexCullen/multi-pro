@@ -1,0 +1,6 @@
+com\douby\controller\ImportSolrController.class
+com\douby\controller\PageController.class
+com\douby\controller\ItemCatController.class
+com\douby\controller\ItemController.class
+com\douby\swagger\SwaggerConfig.class
+com\douby\controller\ContentCatController.class

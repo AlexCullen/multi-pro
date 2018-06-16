@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dooubycommon/dooubycommon.iml" filepath="$PROJECT_DIR$/dooubycommon/dooubycommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontent.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentdto/doubycontentdto.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentdto/doubycontentdto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentservice/doubycontentservice.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentservice/doubycontentservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycontentweb/doubycontentweb.iml" filepath="$PROJECT_DIR$/doubycontentweb/doubycontentweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanager.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanagercontroller/doubymanagercontroller.iml" filepath="$PROJECT_DIR$/doubymanagercontroller/doubymanagercontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerdao/doubymanagerdao.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerdao/doubymanagerdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerdto/doubymanagerdto.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerdto/doubymanagerdto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerinterface/doubymanagerinterface.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerinterface/doubymanagerinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerpojo/doubymanagerpojo.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerpojo/doubymanagerpojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/doubymanagerservice.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerservice/doubymanagerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyparent/doubyparent.iml" filepath="$PROJECT_DIR$/doubyparent/doubyparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolr.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrdao/doubysolrdao.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrdao/doubysolrdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrdto/doubysolrdto.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrdto/doubysolrdto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrinterface/doubysolrinterface.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrinterface/doubysolrinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrpojo/doubysolrpojo.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrpojo/doubysolrpojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrservice/doubysolrservice.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrservice/doubysolrservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysolrweb/doubysolrweb.iml" filepath="$PROJECT_DIR$/doubysolrweb/doubysolrweb.iml" />
+    </modules>
+  </component>
+</project>

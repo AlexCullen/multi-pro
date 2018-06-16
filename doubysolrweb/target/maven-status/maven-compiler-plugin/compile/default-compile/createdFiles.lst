@@ -1,0 +1,3 @@
+com\douby\solrweb\controller\SolrController.class
+com\douby\solrweb\App.class
+com\douby\solrweb\swagger\SwaggerConfig.class

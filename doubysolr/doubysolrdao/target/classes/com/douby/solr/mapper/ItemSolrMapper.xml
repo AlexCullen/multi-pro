@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.douby.solr.mapper.ItemSolrMapper" >
+    <resultMap id="solrMap" type="com.douby.solr.pojo.ItemSolr">
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="sellPoint" column="sell_point"/>
+        <result property="price" column="price"/>
+        <result property="image" column="image"/>
+        <result property="categoryName" column="category_name"/>
+    </resultMap>
+    <select id="getItemList" resultMap="solrMap">
+        SELECT
+        a.id,
+        a.title,
+        a.sell_point,
+        a.price,
+        a.image,
+        b. NAME category_name
+        FROM
+        tb_item a
+        LEFT JOIN tb_item_cat b ON a.cid = b.id
+        WHERE
+        a.`status` = 1
+    </select>
+</mapper>
