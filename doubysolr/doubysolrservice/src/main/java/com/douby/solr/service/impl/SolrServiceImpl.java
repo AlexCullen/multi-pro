@@ -61,7 +61,7 @@ public class SolrServiceImpl implements SolrService {
     public SearchResult search(String keyword, int page, int rows) {
         SearchResult searchResult = new SearchResult();
         try {
-            SolrUtil.initSolrClient(solrUrl);
+            SolrUtil.initSolrClient(solrUrl, "product");
             ResultHandle<SearchResult> resultHandle = new ResultHandle<SearchResult>() {
                 @Override
                 public SearchResult handle(SolrDocumentList solrDocuments,
@@ -82,7 +82,7 @@ public class SolrServiceImpl implements SolrService {
                         String itemCategoryName = solrDocument.get("itemCategoryName") == null ?
                                 "" : solrDocument.get("itemCategoryName").toString();
 
-                        if (highlighting != null){
+                        if (highlighting != null) {
                             highlighting.get("itemTitle");
                             List<String> list = highlighting.get(solrDocument.get("id")).get("itemTitle");
                             if (list != null && list.size() > 0) {
@@ -113,7 +113,7 @@ public class SolrServiceImpl implements SolrService {
             searchResult = SolrUtil.query(resultHandle, solrQuery, true);
             SolrUtil.close();
             long recordCount = searchResult.getRecordCount();
-            int totalPage = (int) (recordCount % rows == 0 ? recordCount/rows : recordCount/rows +1);
+            int totalPage = (int) (recordCount % rows == 0 ? recordCount / rows : recordCount / rows + 1);
             searchResult.setTotalPages(totalPage);
             return searchResult;
         } catch (IOException e) {

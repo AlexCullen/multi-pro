@@ -3,14 +3,14 @@ package com.douby.common;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.client.solrj.impl.CloudSolrClient;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.common.SolrDocumentList;
 import org.apache.solr.common.SolrInputDocument;
 
 import java.io.IOException;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  *                _ooOoo_
@@ -55,6 +55,17 @@ public class SolrUtil {
         solrClient = new HttpSolrClient.Builder(url).build();
     }
 
+    public static void initSolrClient(String url, String collectionName) {
+        if (collectionName == null || "".equals(collectionName)) {
+            collectionName = "product";
+        }
+        String[] urls = url.split(",");
+        Optional<String> zkChrood = Optional.empty();
+        CloudSolrClient cloudSolrClient = new CloudSolrClient.Builder(Arrays.asList(urls), zkChrood).build();
+        cloudSolrClient.setDefaultCollection(collectionName);
+        solrClient = cloudSolrClient;
+    }
+
     public static SolrQuery transSolrQuery(String... param) {
         SolrQuery solrQuery = new SolrQuery();
         solrQuery.setParam("q", param);
@@ -79,7 +90,7 @@ public class SolrUtil {
         for (String field : fields) {
             fieldStr += (field + ",");
         }
-        fieldStr = fieldStr.substring(0, fieldStr.length()-1);
+        fieldStr = fieldStr.substring(0, fieldStr.length() - 1);
         solrQuery.addHighlightField(fieldStr);
         solrQuery.setHighlightSimplePre(hlPre);
         solrQuery.setHighlightSimplePost(hlPost);
@@ -92,15 +103,15 @@ public class SolrUtil {
         return query(resultHandle, solrQuery, false);
     }
 
-    public static <T> T query(ResultHandle<T> resultHandle, SolrQuery solrQuery , boolean flag) throws IOException, SolrServerException {
+    public static <T> T query(ResultHandle<T> resultHandle, SolrQuery solrQuery, boolean flag) throws IOException, SolrServerException {
         if (solrClient == null) {
             throw new NullPointerException("SolrClient is Null");
         }
         QueryResponse queryResponse = solrClient.query(solrQuery);
         SolrDocumentList solrDocuments = queryResponse.getResults();
-        if (flag){
+        if (flag) {
             return resultHandle.handle(solrDocuments, queryResponse.getHighlighting());
-        }else{
+        } else {
             return resultHandle.handle(solrDocuments, null);
         }
     }
@@ -143,6 +154,7 @@ public class SolrUtil {
     }
 
     public static void close() {
+        System.out.println("close");
         if (solrClient != null) {
             try {
                 solrClient.close();
@@ -150,6 +162,18 @@ public class SolrUtil {
                 e.printStackTrace();
             } finally {
                 solrClient = null;
+            }
+        }
+    }
+
+    public static void rollBack() {
+        if (solrClient != null) {
+            try {
+                solrClient.rollback();
+            } catch (SolrServerException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
     }

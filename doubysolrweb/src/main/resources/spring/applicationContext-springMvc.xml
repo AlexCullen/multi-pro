@@ -15,6 +15,8 @@
 
     <context:component-scan base-package="com.douby.solrweb.swagger"/>
 
+    <bean class="com.douby.exception.GlobalExceptionResolver"/>
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>

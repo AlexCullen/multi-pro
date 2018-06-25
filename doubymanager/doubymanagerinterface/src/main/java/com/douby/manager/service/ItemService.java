@@ -2,6 +2,7 @@ package com.douby.manager.service;
 
 import com.douby.common.EasyUiDataGridResult;
 import com.douby.common.E3Result;
+import com.douby.manager.dto.TbItemDescDto;
 import com.douby.manager.dto.TbItemDto;
 import com.douby.manager.dto.TbItemSaveDto;
 
@@ -50,4 +51,8 @@ public interface ItemService {
     public E3Result updateItem(TbItemSaveDto tbItemSaveDto);
 
     public E3Result deleteItems(String ids);
+
+    public void sendMessage(String ids);
+
+    public TbItemDescDto getItemDescById(long itemId);
 }

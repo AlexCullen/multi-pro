@@ -48,13 +48,13 @@ import java.io.UnsupportedEncodingException;
  * TODO:
  */
 @Controller
-public class SolrController {
+public class SolrController{
 
     @Autowired
     private SolrService solrService;
 
     @RequestMapping(value = "search", method = RequestMethod.GET)
-    public String getItemList(String keyword, @RequestParam(defaultValue = "1") Integer page, Model model) throws UnsupportedEncodingException {
+    public String getItemList(String keyword , @RequestParam(defaultValue = "1") Integer page, Model model) throws UnsupportedEncodingException {
         keyword = new String(keyword.getBytes("iso-8859-1"), "utf-8");
         SearchResult searchResult = solrService.search(keyword, page, 20);
         model.addAttribute("query", keyword);

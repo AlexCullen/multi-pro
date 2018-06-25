@@ -67,6 +67,7 @@ public class ItemController {
         E3Result e3Result = null;
         try {
             e3Result = itemService.saveItem(tbItemSaveDto);
+            itemService.sendMessage(e3Result.getData().toString());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -80,6 +81,7 @@ public class ItemController {
         E3Result e3Result = null;
         try {
             e3Result = itemService.updateItem(tbItemSaveDto);
+            itemService.sendMessage(e3Result.getData().toString());
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -92,6 +94,7 @@ public class ItemController {
         E3Result e3Result = null;
         try {
             e3Result = itemService.deleteItems(ids);
+            itemService.sendMessage(e3Result.getData().toString());
         } catch (Exception e) {
             e.printStackTrace();
         }

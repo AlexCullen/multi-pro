@@ -1,6 +1,7 @@
 package com.douby.solr.mapper;
 
 import com.douby.solr.pojo.ItemSolr;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -41,4 +42,6 @@ import java.util.List;
  */
 public interface ItemSolrMapper {
     public List<ItemSolr> getItemList();
+
+    public ItemSolr getItemById(@Param("itemId") Long itemId);
 }

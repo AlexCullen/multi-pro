@@ -26,6 +26,6 @@
     <dubbo:reference interface="com.douby.manager.service.ItemService" id="itemService"/>
     <dubbo:reference interface="com.douby.manager.service.ItemCastService" id="itemCastService"/>
     <dubbo:reference interface="com.douby.content.service.ContentCategoryService" id="contentCategoryService"/>
-    <dubbo:reference interface="com.douby.solr.service.SolrItemService" id="solrItemService"/>
+    <dubbo:reference interface="com.douby.solr.service.SolrItemService" id="solrItemService" timeout="30000"/>
 
 </beans>

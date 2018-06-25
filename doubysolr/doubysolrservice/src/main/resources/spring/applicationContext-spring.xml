@@ -12,10 +12,11 @@
     <import resource="classpath:spring/applicationContext-service.xml"/>
     <import resource="classpath:spring/applicationContext-dao.xml"/>
     <import resource="classpath:spring/applicationContext-tran.xml"/>
+    <import resource="classpath:spring/activemq.xml"/>
 
     <dubbo:application name="doubt-solr-dubbo" owner="cpzh"/>
 
-    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181" timeout="30000"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181"/>
 
     <dubbo:protocol name="dubbo" port="28380"/>
 

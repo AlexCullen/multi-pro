@@ -56,6 +56,8 @@ public class TbItemDto implements Serializable{
 
     private String image;
 
+    private String[] images;
+
     private Long cid;
 
     private Byte status;
@@ -113,12 +115,8 @@ public class TbItemDto implements Serializable{
         this.barcode = barcode == null ? null : barcode.trim();
     }
 
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image == null ? null : image.trim();
+    public TbItemDto(String[] images) {
+        this.images = images;
     }
 
     public Long getCid() {
@@ -153,6 +151,22 @@ public class TbItemDto implements Serializable{
         this.updated = updated;
     }
 
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String[] getImages() {
+        return images;
+    }
+
+    public void setImages(String[] images) {
+        this.images = images;
+    }
+
     public TbItemDto() {
     }
 
@@ -163,7 +177,7 @@ public class TbItemDto implements Serializable{
         this.price = tbItem.getPrice();
         this.num = tbItem.getNum();
         this.barcode = tbItem.getBarcode();
-        this.image = tbItem.getImage();
+        this.images = tbItem.getImage() == null ? new String[]{} : tbItem.getImage().split(",");
         this.cid = tbItem.getCid();
         this.status = tbItem.getStatus();
         this.created = tbItem.getCreated();

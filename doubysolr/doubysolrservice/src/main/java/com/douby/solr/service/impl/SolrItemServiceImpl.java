@@ -82,16 +82,19 @@ public class SolrItemServiceImpl implements SolrItemService {
                     return result;
                 }
             };
-            SolrUtil.initSolrClient(solrUrl);
+            SolrUtil.initSolrClient(solrUrl, "product");
             SolrUtil.addDocument(itemSolrList, saveHandle);
-            SolrUtil.close();
             e3Result = E3Result.ok();
         } catch (IOException e) {
             e.printStackTrace();
             e3Result = E3Result.build(500, "数据导入异常");
+            SolrUtil.rollBack();
         } catch (SolrServerException e) {
             e.printStackTrace();
             e3Result = E3Result.build(500, "solr服务异常");
+            SolrUtil.rollBack();
+        }finally {
+            SolrUtil.close();
         }
         return e3Result;
     }

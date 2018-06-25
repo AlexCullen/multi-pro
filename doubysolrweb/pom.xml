@@ -81,6 +81,12 @@
             <artifactId>jsp-api</artifactId>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.douby.exception</groupId>
+            <artifactId>douby-exception</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>

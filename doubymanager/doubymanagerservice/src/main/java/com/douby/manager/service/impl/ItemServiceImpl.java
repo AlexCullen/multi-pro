@@ -1,8 +1,12 @@
 package com.douby.manager.service.impl;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.douby.common.EasyUiDataGridResult;
 import com.douby.common.IDUtils;
 import com.douby.common.E3Result;
+import com.douby.common.JedisUtil;
+import com.douby.manager.dto.TbItemDescDto;
 import com.douby.manager.dto.TbItemDto;
 import com.douby.manager.dto.TbItemSaveDto;
 import com.douby.manager.pojo.TbItemDesc;
@@ -13,9 +17,16 @@ import com.douby.manager.pojo.TbItem;
 import com.douby.manager.pojo.TbItemExample;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import org.apache.activemq.command.ActiveMQTopic;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Component;
 
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -64,10 +75,33 @@ public class ItemServiceImpl implements ItemService {
     @Autowired
     private TbItemDescMapper tbItemDescMapper;
 
+    @Autowired
+    private JmsTemplate jmsTemplate;
+
+    @Autowired
+    private ActiveMQTopic activeMQTopic;
+
+    @Autowired
+    private JedisUtil jedisUtil;
+
+    @Value("${item_redis_pre}")
+    private String itemReidPre;
+
+    @Value("${item_redis_base_suf}")
+    private String itemRedisBaseSuf;
+
+    @Value("${item_redis_desc_suf}")
+    private String itemRedisDescSuf;
+
     @Override
     public TbItemDto getItemById(long itemId) {
+        String keyName = itemReidPre + itemId + itemRedisBaseSuf;
+        if (jedisUtil.exists(keyName)){
+            return getItemRedis(keyName, TbItemDto.class);
+        }
         TbItem tbItem = tbItemMapper.selectByPrimaryKey(itemId);
         TbItemDto tbItemDto = new TbItemDto(tbItem);
+        itemRedis(keyName, tbItemDto);
         return tbItemDto;
     }
 
@@ -111,6 +145,7 @@ public class ItemServiceImpl implements ItemService {
 
             tbItemMapper.insert(tbItem);
             tbItemDescMapper.insert(tbItemDesc);
+            e3Result = E3Result.ok(id);
         } catch (Exception e) {
             e3Result = E3Result.build(0, e.getMessage());
         }
@@ -137,6 +172,7 @@ public class ItemServiceImpl implements ItemService {
             tbItemDesc.setItemDesc(tbItemSaveDto.getDesc());
             tbItemMapper.updateByPrimaryKeySelective(tbItem);
             tbItemDescMapper.updateByPrimaryKeySelective(tbItemDesc);
+            e3Result = E3Result.ok(tbItemSaveDto.getId());
         } catch (Exception e) {
             e3Result = E3Result.build(0, e.getMessage());
         }
@@ -152,10 +188,50 @@ public class ItemServiceImpl implements ItemService {
                 tbItemMapper.deleteByPrimaryKey(Long.valueOf(id));
                 tbItemDescMapper.deleteByPrimaryKey(Long.valueOf(id));
             }
+            e3Result = E3Result.ok(ids);
         } catch (Exception e) {
             e3Result = E3Result.build(0, e.getMessage());
 
         }
         return e3Result;
+    }
+
+    @Override
+    public void sendMessage(String ids) {
+        jmsTemplate.send(activeMQTopic, new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                Message message = session.createTextMessage(ids);
+                return message;
+            }
+        });
+    }
+
+    @Override
+    public TbItemDescDto getItemDescById(long itemId) {
+        String keyName = itemReidPre + itemId + itemRedisDescSuf;
+        if (jedisUtil.exists(keyName)){
+            return getItemRedis(keyName, TbItemDescDto.class);
+        }
+        TbItemDesc tbItemDesc = tbItemDescMapper.selectByPrimaryKey(itemId);
+        TbItemDescDto tbItemDescDto = new TbItemDescDto(tbItemDesc);
+        itemRedis(keyName, tbItemDescDto);
+        return tbItemDescDto;
+    }
+
+    private <T> void itemRedis(String keyName, T value){
+        try {
+            jedisUtil.set(keyName, JSON.toJSONString(value));
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+    private <T> T getItemRedis(String keyName, Class<T> clazz){
+        try {
+           return JSONObject.parseObject(jedisUtil.get(keyName), clazz);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return null;
     }
 }
