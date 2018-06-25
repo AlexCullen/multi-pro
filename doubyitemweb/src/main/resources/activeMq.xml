@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/context/beans http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean id="targetConnFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <constructor-arg name="brokerURL" value="failover://tcp://192.168.121.142:61616"/>
+        <constructor-arg name="userName" value="admin"/>
+        <constructor-arg name="password" value="admin"/>
+    </bean>
+
+    <bean id="connFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="targetConnFactory"/>
+    </bean>
+
+    <bean id="mqTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg name="name" value="item-mq"/>
+    </bean>
+
+    <bean id="mqTopicListener" class="com.douby.item.message.AddTempMsgListener">
+    </bean>
+
+    <bean class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="connFactory"/>
+        <property name="destination" ref="mqTopic"/>
+        <property name="messageListener" ref="mqTopicListener"/>
+    </bean></beans>
