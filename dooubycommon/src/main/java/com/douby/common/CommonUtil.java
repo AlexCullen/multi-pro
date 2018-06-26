@@ -1,5 +1,11 @@
 package com.douby.common;
 
+import sun.misc.BASE64Encoder;
+
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 /**
  *                _ooOoo_
  *                o8888888o
@@ -36,7 +42,29 @@ package com.douby.common;
  * TODO:
  */
 public class CommonUtil {
-    public static void dateUtile(){
+    public static void dateUtile() {
         System.out.println("日期工具");
+    }
+
+    /**
+     * MD5加密
+     *
+     * @param str
+     * @return
+     */
+    public static final String screteMd5(String str) {
+        try {
+            //确定计算方法
+            MessageDigest md5 = MessageDigest.getInstance("MD5");
+            BASE64Encoder base64en = new BASE64Encoder();
+            //加密后的字符串
+            String newstr = base64en.encode(md5.digest(str.getBytes("utf-8")));
+            return newstr;
+        } catch (NoSuchAlgorithmException nsae) {
+            nsae.printStackTrace();
+        } catch (UnsupportedEncodingException uee) {
+            uee.printStackTrace();
+        }
+        return str;
     }
 }

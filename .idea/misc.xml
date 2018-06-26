@@ -3,11 +3,14 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/doubycontent/doubycontentservice" />
     <file type="web" url="file://$PROJECT_DIR$/doubycontentweb" />
+    <file type="web" url="file://$PROJECT_DIR$/doubyitemweb" />
     <file type="web" url="file://$PROJECT_DIR$/doubymanager/doubymanagercontroller" />
     <file type="web" url="file://$PROJECT_DIR$/doubymanager/doubymanagerservice" />
     <file type="web" url="file://$PROJECT_DIR$/doubymanagercontroller" />
     <file type="web" url="file://$PROJECT_DIR$/doubysolr/doubysolrservice" />
     <file type="web" url="file://$PROJECT_DIR$/doubysolrweb" />
+    <file type="web" url="file://$PROJECT_DIR$/doubysso/douby-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/doubyssoweb" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,11 +24,19 @@
         <option value="$PROJECT_DIR$/doubycontentweb/pom.xml" />
         <option value="$PROJECT_DIR$/doubysolr/pom.xml" />
         <option value="$PROJECT_DIR$/doubysolrweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyexception/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyitemweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysso/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyssoweb/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/doubymanager/doubymanagercontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysso/douby-sso-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysso/doubyssointerface/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysso/doubyssopojo/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysso/doubyssoservice/pom.xml" />
       </set>
     </option>
   </component>

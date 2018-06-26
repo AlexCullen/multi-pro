@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/doubycontent/doubycontentinterface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubycontent/doubycontentservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubycontentweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyexception" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyitemweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubymanager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubymanager/doubymanagerdao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubymanager/doubymanagerdto" charset="UTF-8" />
@@ -15,7 +17,6 @@
     <file url="file://$PROJECT_DIR$/doubymanager/doubymanagerservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubymanagercontroller" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubyparent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/doubyparent/doubysolrweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolr" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolr/doubysolrdao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolr/doubysolrdto" charset="UTF-8" />
@@ -23,6 +24,15 @@
     <file url="file://$PROJECT_DIR$/doubysolr/doubysolrpojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolr/doubysolrservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolrweb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/douby-sso-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/douby-sso-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/douby-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/douby-sso-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/doubyssointerface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/doubyssopojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubysso/doubyssoservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyssoweb" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

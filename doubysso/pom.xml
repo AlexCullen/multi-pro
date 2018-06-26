@@ -17,9 +17,9 @@
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
-        <module>doubyssointerface</module>
-        <module>doubyssoservice</module>
-        <module>doubyssopojo</module>
+        <module>douby-sso-interface</module>
+        <module>douby-sso-service</module>
+        <module>douby-sso-dto</module>
     </modules>
 
     <distributionManagement>
@@ -34,6 +34,16 @@
     </properties>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <port>8087</port>
+                    <path>/</path>
+                </configuration>
+            </plugin>
+        </plugins>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>

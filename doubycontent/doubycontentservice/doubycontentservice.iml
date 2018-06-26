@@ -59,6 +59,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
     <orderEntry type="library" name="Maven: org.noggit:noggit:0.8" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="module" module-name="doubymanagerdao" />
     <orderEntry type="module" module-name="doubymanagerpojo" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.6" level="project" />

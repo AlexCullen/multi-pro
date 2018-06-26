@@ -11,6 +11,8 @@
         <module name="doubycontentinterface" />
         <module name="doubycontentservice" />
         <module name="doubycontentweb" />
+        <module name="doubyexception" />
+        <module name="doubyitemweb" />
         <module name="doubymanagercontroller" />
         <module name="doubymanagerdao" />
         <module name="doubymanagerdto" />
@@ -23,6 +25,10 @@
         <module name="doubysolrpojo" />
         <module name="doubysolrservice" />
         <module name="doubysolrweb" />
+        <module name="doubyssodto" />
+        <module name="doubyssointerface" />
+        <module name="doubyssoservice" />
+        <module name="doubyssoweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +40,8 @@
       <module name="doubycontentservice" target="1.8" />
       <module name="doubycontentweb" target="1.8" />
       <module name="doubydto" target="1.7" />
+      <module name="doubyexception" target="1.7" />
+      <module name="doubyitemweb" target="1.8" />
       <module name="doubymanager" target="1.5" />
       <module name="doubymanagercontroller" target="1.8" />
       <module name="doubymanagerdao" target="1.8" />
@@ -49,6 +57,13 @@
       <module name="doubysolrpojo" target="1.8" />
       <module name="doubysolrservice" target="1.8" />
       <module name="doubysolrweb" target="1.8" />
+      <module name="doubysso" target="1.5" />
+      <module name="doubyssodao" target="1.8" />
+      <module name="doubyssodto" target="1.7" />
+      <module name="doubyssointerface" target="1.8" />
+      <module name="doubyssopojo" target="1.7" />
+      <module name="doubyssoservice" target="1.8" />
+      <module name="doubyssoweb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

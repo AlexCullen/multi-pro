@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentservice/doubycontentservice.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentservice/doubycontentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubycontentweb/doubycontentweb.iml" filepath="$PROJECT_DIR$/doubycontentweb/doubycontentweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyexception/doubyexception.iml" filepath="$PROJECT_DIR$/doubyexception/doubyexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyitemweb/doubyitemweb.iml" filepath="$PROJECT_DIR$/doubyitemweb/doubyitemweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanager.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubymanagercontroller/doubymanagercontroller.iml" filepath="$PROJECT_DIR$/doubymanagercontroller/doubymanagercontroller.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerdao/doubymanagerdao.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerdao/doubymanagerdao.iml" />
@@ -23,6 +25,11 @@
       <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrpojo/doubysolrpojo.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrpojo/doubysolrpojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrservice/doubysolrservice.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrservice/doubysolrservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubysolrweb/doubysolrweb.iml" filepath="$PROJECT_DIR$/doubysolrweb/doubysolrweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysso/doubysso.iml" filepath="$PROJECT_DIR$/doubysso/doubysso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysso/douby-sso-dto/doubyssodto.iml" filepath="$PROJECT_DIR$/doubysso/douby-sso-dto/doubyssodto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysso/douby-sso-interface/doubyssointerface.iml" filepath="$PROJECT_DIR$/doubysso/douby-sso-interface/doubyssointerface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubysso/douby-sso-service/doubyssoservice.iml" filepath="$PROJECT_DIR$/doubysso/douby-sso-service/doubyssoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyssoweb/doubyssoweb.iml" filepath="$PROJECT_DIR$/doubyssoweb/doubyssoweb.iml" />
     </modules>
   </component>
 </project>

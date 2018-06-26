@@ -33,6 +33,7 @@
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.8" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" />
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="archive" name="douby-manager-dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="doubymanagerdao" />
           </element>
@@ -78,6 +79,8 @@
           <element id="library" level="project" name="Maven: org.apache.yetus:audience-annotations:0.5.0" />
           <element id="library" level="project" name="Maven: io.netty:netty:3.10.6.Final" />
           <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:0.1" />
+          <element id="library" level="project" name="Maven: org.apache.activemq:activemq-all:5.15.3" />
+          <element id="library" level="project" name="Maven: javax.jms:javax.jms-api:2.0.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
