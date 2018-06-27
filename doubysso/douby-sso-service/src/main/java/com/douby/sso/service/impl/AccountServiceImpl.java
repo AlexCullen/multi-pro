@@ -104,7 +104,7 @@ public class AccountServiceImpl implements AccountService {
     public E3Result loginIn(String userName, String password) {
         TbUser tbUser = loginCheckUserName(userName);
         if (tbUser == null) {
-            E3Result.build(400, "用户不存在");
+            return E3Result.build(400, "用户不存在");
         }
 
         if (!loginCheckPassword(password, tbUser)) {
@@ -131,17 +131,16 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public E3Result checkToken(String token) {
-        String key = Constant.TOKEN_PRE + token;
-        if (!jedisUtil.exists(key)) {
+        if (!jedisUtil.exists(token)) {
             return E3Result.build(404, "授权已过期");
         }
-        String tokenObj = jedisUtil.get(Constant.TOKEN_PRE + token);
+        String tokenObj = jedisUtil.get(token);
 
-        if (!StringUtils.isBlank(tokenObj)) {
+        if (StringUtils.isBlank(tokenObj)) {
             return E3Result.build(404, "授权已过期");
         }
         UserDto userDto = JSONObject.parseObject(tokenObj, UserDto.class);
-        jedisUtil.expire(key, Constant.TOKEN_EXPIRE);
+        jedisUtil.expire(token, Constant.TOKEN_EXPIRE);
         return E3Result.ok(userDto);
     }
 

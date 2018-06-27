@@ -12,6 +12,9 @@
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resoureces" />
+          <root url="file://$MODULE_DIR$/src/main/webapp/css" />
+          <root url="file://$MODULE_DIR$/src/main/webapp/images" />
+          <root url="file://$MODULE_DIR$/src/main/webapp/js" />
         </sourceRoots>
       </configuration>
     </facet>
@@ -26,6 +29,9 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resoureces" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp/css" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp/images" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp/js" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

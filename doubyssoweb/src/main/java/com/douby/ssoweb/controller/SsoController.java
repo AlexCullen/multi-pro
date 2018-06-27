@@ -4,8 +4,10 @@ import com.douby.common.CookieUtils;
 import com.douby.common.E3Result;
 import com.douby.sso.dto.UserDto;
 import com.douby.sso.service.AccountService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.converter.json.MappingJacksonValue;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.EscapedErrors;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -69,7 +71,12 @@ public class SsoController {
      */
     @RequestMapping("/page/register")
     public String toRegistPage() {
-        return "regist";
+        return "register";
+    }
+
+    @RequestMapping("/page/index")
+    public String index() {
+        return "index";
     }
 
     /**
@@ -132,9 +139,16 @@ public class SsoController {
         return e3Result;
     }
 
-    @RequestMapping(value="/user/token/{token}")
+    @RequestMapping(value = "/user/token/{token}")
     @ResponseBody
-    public E3Result checkToken(@PathVariable("token") String tokenId){
-        return accountService.checkToken(tokenId);
+    public Object checkToken(@PathVariable("token") String tokenId, String callback) {
+        E3Result result = accountService.checkToken(tokenId);
+        if (StringUtils.isNotBlank(callback)) {
+            //把结果封装成一个js语句响应
+            MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(result);
+            mappingJacksonValue.setJsonpFunction(callback);
+            return mappingJacksonValue;
+        }
+        return result;
     }
 }

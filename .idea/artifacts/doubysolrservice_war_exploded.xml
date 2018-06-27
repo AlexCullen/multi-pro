@@ -35,7 +35,6 @@
           <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" />
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.8" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.24" />
-          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="archive" name="douby-solr-dto-1.0-SNAPSHOT.jar">
             <element id="module-output" name="doubysolrdto" />
           </element>

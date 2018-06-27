@@ -38,68 +38,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8e29a65-7118-4955-9a3f-226896e1d823" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/resources/conf/sample.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/headerfooter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/headerfooterindex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/jquery.alerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/reg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/06f42c372620f92b40da77a8b23cdf7f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/btn1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/btn2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/btn3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/btn4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/caplock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/close.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/find.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/icon8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/login_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/login_bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/login_bottom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/login_main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/login_top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/loginbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/loginicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/loginregbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/loginregbg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/recommend8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/reg_btn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/reg_tip.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/tabbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/tabbg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/images/tz_tips.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/allMail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/capsLock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/cas.login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/jquery-1.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/jquery.alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/passport.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/png.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/js/reg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubycontentservice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubycontentservice_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubyitemweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubyitemweb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubymanagerservice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubymanagerservice_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubysolrservice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubysolrservice_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubysolrweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubysolrweb_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubyssoservice_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubyssoservice_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/doubyssoweb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/doubyssoweb_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/92ce92a0-faf0-421e-bb45-63952d9ed55e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/92ce92a0-faf0-421e-bb45-63952d9ed55e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dooubycommon/dooubycommon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dooubycommon/dooubycommon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dooubycommon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dooubycommon/pom.xml" afterDir="false" />
@@ -107,32 +52,45 @@
       <change beforePath="$PROJECT_DIR$/doubycontent/doubycontentdto/doubycontentdto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontent/doubycontentdto/doubycontentdto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubycontent/doubycontentservice/doubycontentservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontent/doubycontentservice/doubycontentservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubyexception/doubyexception.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyexception/doubyexception.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubycontentweb/doubycontentweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontentweb/doubycontentweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/e3mall.js" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/e3mall.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubyitemweb/doubyitemweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyitemweb/doubyitemweb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerdao/doubymanagerdao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerdao/doubymanagerdao.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerdto/doubymanagerdto.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerdto/doubymanagerdto.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerinterface/doubymanagerinterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerinterface/doubymanagerinterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerpojo/doubymanagerpojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerpojo/doubymanagerpojo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerservice/doubymanagerservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerservice/doubymanagerservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-trans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubyparent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyparent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolr/doubysolrinterface/doubysolrinterface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolr/doubysolrinterface/doubysolrinterface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolr/doubysolrservice/doubysolrservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolr/doubysolrservice/doubysolrservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssointerface/doubyssointerface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssointerface/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssointerface/src/main/java/com/douby/interface/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssointerface/src/test/java/com/douby/interface/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssopojo/doubyssopojo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssopojo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssopojo/src/main/java/com/douby/pojo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssopojo/src/test/java/com/douby/pojo/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssoservice/doubyssoservice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssoservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssoservice/src/main/java/com/douby/service/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/doubyssoservice/src/test/java/com/douby/service/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.6" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.7" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.8" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.9" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-dto/src/main/java/com/douby/sso/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-dto/src/main/java/com/douby/sso/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-interface/doubyssointerface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-interface/doubyssointerface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-service/doubyssoservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-service/doubyssoservice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-service/src/test/java/com/douby/sso/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-service/src/test/java/com/douby/sso/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubyssoweb/doubyssoweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/doubyssoweb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubyssoweb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/doubyparent/target/" />
     <ignored path="$PROJECT_DIR$/dooubycommon/target/" />
@@ -211,47 +169,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubyssoweb/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SsoController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SsoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="136" column="55" selection-start-line="136" selection-end-line="137" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2053#2054#0" expanded="true" />
-                <element signature="e#2084#2085#0" expanded="true" />
-                <element signature="e#2663#2664#0" expanded="true" />
-                <element signature="e#2716#2717#0" expanded="true" />
-                <element signature="e#4149#4150#0" expanded="true" />
-                <element signature="e#4178#4179#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reg.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/reg.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="177" column="70" selection-start-line="177" selection-start-column="70" selection-end-line="177" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CookieUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CookieUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+            <state relative-caret-position="531">
+              <caret line="144" column="43" lean-forward="true" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -259,44 +181,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-interface/src/main/java/com/douby/sso/service/AccountService.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="37" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java">
+      <file leaf-file-name="e3mall.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/e3mall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/resources/conf/sample.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-interface/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="200">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -304,17 +202,31 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dooubycommon/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
+            <state relative-caret-position="175">
+              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="servlet-api-2.5.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doubyparent/pom.xml">
+        <entry file="file://$PROJECT_DIR$/doubysolrweb/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="208" selection-start-line="208" selection-end-line="208" />
+            <state relative-caret-position="1875">
+              <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global_index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/global_index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55925">
+              <caret line="2237" column="5" selection-start-line="2237" selection-start-column="5" selection-end-line="2237" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -327,21 +239,12 @@
         <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>del</find>
-      <find>act</find>
-      <find>activ</find>
-      <find>activemq</find>
-      <find>ActiveMQConnection(</find>
-      <find>xbean</find>
-      <find>context</find>
-      <find>ActiveMQConnectionFactory(</find>
-      <find>JMSContext</find>
-      <find>DefaultMessageListenerContainer(</find>
       <find>all</find>
       <find>jms</find>
       <find>active</find>
@@ -362,6 +265,16 @@
       <find>private JedisUtil jedisUtil</find>
       <find>common</find>
       <find>servlet-api</find>
+      <find>8083</find>
+      <find>de</find>
+      <find>SolrUtil</find>
+      <find>登录</find>
+      <find>请登录</find>
+      <find>System.out</find>
+      <find>Syste</find>
+      <find>8082</find>
+      <find>e3mall.js</find>
+      <find>isBlank</find>
     </findStrings>
     <dirStrings>
       <dir>E:\workspace\multi-pro\doubysolr\doubysolrservice</dir>
@@ -376,15 +289,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-spring.xml" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/conf/sample.properties" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerdto/src/main/java/com/douby/manager/dto/TbItemDescDto.java" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/java/com/douby/manager/service/impl/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/doubymanager/doubymanagerdto/src/main/java/com/douby/manager/dto/TbItemDto.java" />
         <option value="$PROJECT_DIR$/doubycontentweb/src/main/java/com/douby/contentweb/ContentController.java" />
         <option value="$PROJECT_DIR$/doubyitemweb/src/main/resources/activeMq.xml" />
         <option value="$PROJECT_DIR$/doubyitemweb/src/main/resources/application-spring.xml" />
@@ -398,12 +302,10 @@
         <option value="$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/search.jsp" />
         <option value="$PROJECT_DIR$/doubysso/doubyssointerface/pom.xml" />
         <option value="$PROJECT_DIR$/doubysso/doubyssopojo/pom.xml" />
-        <option value="$PROJECT_DIR$/doubysso/douby-sso-dto/src/main/java/com/douby/sso/dto/UserDto.java" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-dao/pom.xml" />
         <option value="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/doubymanager/doubymanagerdao/pom.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-trans.xml" />
-        <option value="$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CommonUtil.java" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-base.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/conf/sso-sample.properties" />
@@ -411,22 +313,33 @@
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-redis.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/contant/Constant.java" />
-        <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/test/java/com/douby/sso/AppTest.java" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/pom.xml" />
-        <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/doubysso/pom.xml" />
-        <option value="$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-interface/src/main/java/com/douby/sso/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/dooubycommon/pom.xml" />
-        <option value="$PROJECT_DIR$/doubyssoweb/pom.xml" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-interface/pom.xml" />
         <option value="$PROJECT_DIR$/doubyparent/pom.xml" />
         <option value="$PROJECT_DIR$/doubyssoweb/src/main/resources/conf/sample.properties" />
         <option value="$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CookieUtils.java" />
-        <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java" />
         <option value="$PROJECT_DIR$/doubyssoweb/src/main/webapp/css/reg.css" />
+        <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/test/java/com/douby/sso/AppTest.java" />
+        <option value="$PROJECT_DIR$/doubysolrweb/pom.xml" />
+        <option value="$PROJECT_DIR$/dooubycommon/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyssoweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/java/com/douby/solr/service/impl/SolrServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/doubycontentweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+        <option value="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" />
+        <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/doubysso/douby-sso-dto/src/main/java/com/douby/sso/dto/UserDto.java" />
+        <option value="$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/e3mall.js" />
+        <option value="$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java" />
       </list>
     </option>
   </component>
@@ -465,30 +378,43 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="doouby-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="douby-solr-dto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-solr-dto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-sso-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.douby.solr:douby-solr-interface:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-sso-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-sso-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.douby.sso:douby-sso-interface:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-sso-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.douby.sso:douby-sso-interface:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.douby.solr:douby-solr-interface:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
           <item name="com.douby.common:doouby-common:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-sso-dto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="douby-sso-dto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -497,11 +423,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="382" />
-    <option name="y" value="27" />
-    <option name="width" value="1274" />
-    <option name="height" value="988" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="518" />
+    <option name="y" value="48" />
+    <option name="width" value="1500" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -655,6 +581,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -664,33 +593,86 @@
             </path>
             <path>
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dooubycommon" type="462c0819:PsiDirectoryNode" />
+              <item name="doubycontentweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubycontentweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dooubycommon" type="462c0819:PsiDirectoryNode" />
+              <item name="doubycontentweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dooubycommon" type="462c0819:PsiDirectoryNode" />
+              <item name="doubycontentweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubycontentweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubysolrweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-sso-dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-sso-dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-sso-dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-sso-dto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dooubycommon" type="462c0819:PsiDirectoryNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-sso-dto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doubyparent" type="462c0819:PsiDirectoryNode" />
+              <item name="doubysso" type="462c0819:PsiDirectoryNode" />
+              <item name="douby-sso-dto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
@@ -736,21 +718,6 @@
               <item name="doubyssoweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doubyssoweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doubyssoweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -759,15 +726,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubyssoweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -777,29 +750,26 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="F:/gitwork/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doubyssoweb" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4186747" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\multi-pro\doubysso\douby-sso-service\src\main\resources\spring" />
-      <recent name="E:\workspace\multi-pro\doubysolr\doubysolrservice\src\main\resources\conf" />
-      <recent name="E:\workspace\multi-pro\doubymanager\doubymanagerservice\src\main\resources\spring" />
-      <recent name="E:\workspace\multi-pro\generatorSqlmapCustom\src\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.douby.solr.service.impl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.douby.common" />
       <recent name="com.douby.manager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\multi-pro\doubyssoweb\src\main\webapp\WEB-INF" />
       <recent name="E:\workspace\multi-pro\doubyssoweb\src\main\webapp" />
       <recent name="E:\workspace\multi-pro\dooubycommon\src\main\java\com\douby\common" />
       <recent name="E:\workspace\multi-pro\doubysso\douby-sso-service\src\main\resources\mybatis" />
       <recent name="E:\workspace\multi-pro\doubyitemweb\src\main\webapp\item" />
-      <recent name="E:\workspace\multi-pro\doubyitemweb\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.douby.solrweb.swagger" />
@@ -807,8 +777,11 @@
       <recent name="com.douby.common" />
       <recent name="com.douby.swagger" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.douby.solr.service.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\multi-pro\doubysso\douby-sso-service\src\main\resources\spring" />
+      <recent name="E:\workspace\multi-pro\doubysolr\doubysolrservice\src\main\resources\conf" />
+      <recent name="E:\workspace\multi-pro\doubymanager\doubymanagerservice\src\main\resources\spring" />
+      <recent name="E:\workspace\multi-pro\generatorSqlmapCustom\src\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -958,28 +931,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-    </configuration>
-    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
     </configuration>
     <configuration name="com.douby.contentService" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -1177,6 +1128,31 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="com.douby.ssoweb" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/doubyssoweb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1272,8 +1248,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.com.douby.ssoweb" />
       <item itemvalue="Maven.com.douby.sso" />
-      <item itemvalue="Maven.Unnamed" />
       <item itemvalue="Maven.com.douby.itemWeb" />
       <item itemvalue="Maven.com.douby.solrWeb" />
       <item itemvalue="Maven.com.douby.solr" />
@@ -1369,8 +1345,20 @@
       <workItem from="1529931503052" duration="650000" />
       <workItem from="1529968609429" duration="591000" />
       <workItem from="1529975517719" duration="12470000" />
-      <workItem from="1529997056599" duration="9529000" />
+      <workItem from="1529997056599" duration="10947000" />
+      <workItem from="1530012636540" duration="607000" />
+      <workItem from="1530061139303" duration="9077000" />
+      <workItem from="1530071153418" duration="1795000" />
+      <workItem from="1530081230913" duration="1488000" />
     </task>
+    <task id="LOCAL-00001" summary="sso单点登录 web层">
+      <created>1530008141436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530008141436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1406,16 +1394,16 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247000000" />
+    <option name="totallyTimeSpent" value="261385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="669" y="48" width="1500" height="982" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.30516684" side_tool="true" weight="0.31428573" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49784714" weight="0.2899288" />
-      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.24919268" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.2351752" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="0" />
@@ -1423,26 +1411,26 @@
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.8304629" weight="0.41800246" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.8304629" weight="0.41734692" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.69483316" weight="0.31428573" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.7906351" weight="0.2734694" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.7906351" visible="true" weight="0.2734694" />
       <window_info anchor="bottom" id="Spring" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info active="true" content_ui="combo" x="787" y="184" width="283" height="711" id="Project" order="6" visible="true" weight="0.18568353" />
+      <window_info active="true" content_ui="combo" x="787" y="184" width="283" height="711" id="Project" order="6" visible="true" weight="0.29110512" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32960325" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="5" weight="0.37237978" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32960325" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.69483316" weight="0.31428573" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
@@ -1452,6 +1440,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sso单点登录 web层" />
+    <option name="LAST_COMMIT_MESSAGE" value="sso单点登录 web层" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1468,228 +1460,25 @@
           <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/e3mall.js</url>
+          <line>14</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="112" />
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="MavenRunConfiguration">
-        <watch expression="jedisUtil" />
-        <watch expression="jedisUtil.exists(keyName)" />
-        <watch expression="jedisUtil.exists(keyName)" />
-        <watch expression="jedisUtil.get(keyName)" />
-        <watch expression="(T) JSON.parse(jedisUtil.get(keyName))" />
-        <watch expression="clazz.cast(obj)" />
+        <watch expression="SolrUtil.initSolrClient(solrUrl, &quot;product&quot;);" />
+        <watch expression="SolrUtil.transSolrQuery(&quot;itemKeywords:&quot; + keyword);" />
+        <watch expression="accountService.checkToken(tokenId)" />
+        <watch expression="accountService.checkToken(tokenId)" language="JAVA" />
+        <watch expression="accountService.checkToken(tokenId)" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/conf/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="80" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="67" selection-start-line="21" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerdao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/EasyUiDataGridResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/E3Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="22" />
-          <folding>
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CommonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="54" column="52" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/EasyUiTreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/conf/sso-sample.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-base.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/target/classes/conf/sso-db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/conf/sso-db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://92ce92a0-faf0-421e-bb45-63952d9ed55e/schema/emall/table/tb_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/java/com/douby/content/service/impl/ContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/JedisClusterUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/contant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2598">
-          <caret line="200" column="9" lean-forward="true" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/test/java/com/douby/sso/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="53" column="34" selection-start-line="53" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1700,55 +1489,10 @@
     <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubysolrweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2175" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/resources/spring/applicationContext-springMvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="34" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/JedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="88" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -1759,16 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dooubycommon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doubyparent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1776,63 +1510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/resources/conf/sample.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyssoweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-interface/src/main/java/com/douby/sso/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CookieUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="136" column="55" selection-start-line="136" selection-end-line="137" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2084#2085#0" expanded="true" />
-            <element signature="e#2663#2664#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#4149#4150#0" expanded="true" />
-            <element signature="e#4178#4179#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1840,6 +1521,301 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="177" column="70" selection-start-line="177" selection-start-column="70" selection-end-line="177" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dooubycommon/dooubycommon.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/CommonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/7.3.1/solr-solrj-7.3.1.jar!/org/apache/solr/client/solrj/SolrClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="273" column="25" selection-start-line="273" selection-start-column="25" selection-end-line="273" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/java/com/douby/solr/service/impl/SolrServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1703">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dooubycommon/src/main/java/com/douby/common/SolrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/commons/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/java/com/douby/content/service/impl/TbContenCateGoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyitemweb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/java/com/douby/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="75" column="52" lean-forward="true" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubymanagercontroller/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="19" selection-start-line="19" selection-end-line="102" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/resources/spring/applicationContext-springMvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/test/java/com/douby/sso/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/resources/conf/sample.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyitemweb/src/main/java/com/douby/item/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/java/com/douby/contentweb/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="140" column="75" selection-start-line="140" selection-start-column="75" selection-end-line="140" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolrweb/src/main/java/com/douby/solrweb/controller/SolrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="148" column="60" selection-start-line="148" selection-start-column="60" selection-end-line="148" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="105" column="43" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.6.RELEASE/spring-aop-5.0.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-interface/src/main/java/com/douby/sso/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.6.RELEASE/spring-web-5.0.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="131" column="45" selection-start-line="131" selection-start-column="45" selection-end-line="131" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysso/douby-sso-dto/src/main/java/com/douby/sso/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/global_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55925">
+          <caret line="2237" column="5" selection-start-line="2237" selection-start-column="5" selection-end-line="2237" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubysolrweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dooubycommon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubycontentweb/src/main/webapp/js/e3mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyssoweb/src/main/java/com/douby/ssoweb/controller/SsoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="144" column="43" lean-forward="true" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

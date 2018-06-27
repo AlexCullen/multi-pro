@@ -50,7 +50,7 @@ public class AppTest
         UserDto userDto = new UserDto();
         userDto.setUsername("douby");
         userDto.setPassword("12121");
-       E3Result e3Result = accountService.loginIn(userDto);
+       E3Result e3Result = accountService.loginIn("","");
         System.out.println(e3Result.getStatus());
     }
 }

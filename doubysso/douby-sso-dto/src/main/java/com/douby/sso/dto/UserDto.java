@@ -1,5 +1,6 @@
 package com.douby.sso.dto;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -37,7 +38,8 @@ import java.util.Date;
  * @Date: 2018/6/26 10:51
  * TODO:
  */
-public class UserDto {
+public class UserDto implements Serializable {
+    private static final long serialVersionUID = 8631246279905946599L;
     private Long id;
 
     private String username;
