@@ -37,100 +37,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8e29a65-7118-4955-9a3f-226896e1d823" name="Default" comment="sso单点登录 完成 跨域请求了解">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/doubycartproviderservice_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/doubycartproviderservice_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/doubycartweb_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/doubycartweb_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-interface/doubycartproviderinterface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-interface/src/main/java/com/douby/cartproviderinterface/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/doubycartproviderservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/java/com/douby/cartproviderservice/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/resources/conf/sample.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/resources/spring/redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/doubycartprovider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartprovider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/doubycartweb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/java/com/douby/cartweb/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/java/com/douby/cartweb/interceptors/SsoInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/resources/conf/sample.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/cartSuccess.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/commons/header1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/css/cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/css/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/css/head.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/css/jquery.alerts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/bottom_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/cart_icon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/cart_icon2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/cartbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/cate_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/foot_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/getfavbg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/indexImg20130307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/kxicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/logo66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/logo_word.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/productinfo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/sf-stock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/step_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/images/thumb_1800220027_0_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/e3mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/jquery-1.5.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/jquery.alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/jquery.price_format.2.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubycartweb/src/main/webapp/js/shadow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyorderserver/douby-order-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyorderserver/douby-order-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyorderserver/douby-order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyorderserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubyorderweb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c8e29a65-7118-4955-9a3f-226896e1d823" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontent/doubycontentservice/src/main/resoureces/spring/applicationContext-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubycontentweb/src/main/resoureces/spring/applicationContext-springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubycontentweb/src/main/resoureces/spring/applicationContext-springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubyitemweb/src/main/resources/activeMq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyitemweb/src/main/resources/activeMq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubyitemweb/src/main/resources/application-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyitemweb/src/main/resources/application-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-activeMQ.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-activeMQ.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanager/doubymanagerservice/src/main/resources/spring/applicationContext-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubymanagercontroller/src/main/resources/spring/applicationContext-springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubymanagercontroller/src/main/resources/spring/applicationContext-springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/conf/sample.properties" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/conf/sample.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/spring/activemq.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/spring/activemq.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/spring/applicationContext-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolr/doubysolrservice/src/main/resources/spring/applicationContext-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.6" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server-error.log.6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.10" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.10" afterDir="false" />
@@ -142,12 +50,6 @@
       <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.7" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.8" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doubysolrweb/logs/server.log.9" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/logs/server.log.9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/src/main/resources/spring/applicationContext-springMvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/src/main/resources/spring/applicationContext-springMvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/doubysolrweb/src/main/webapp/WEB-INF/jsp/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doubyssoweb/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/doubyparent/target/" />
     <ignored path="$PROJECT_DIR$/dooubycommon/target/" />
@@ -235,17 +137,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doubyorderweb/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -353,11 +245,11 @@
         <option value="$PROJECT_DIR$/doubycartweb/src/main/java/com/douby/cartweb/controller/CartController.java" />
         <option value="$PROJECT_DIR$/doubysso/douby-sso-service/src/main/java/com/douby/sso/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/doubyorderserver/pom.xml" />
-        <option value="$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/pom.xml" />
         <option value="$PROJECT_DIR$/doubyorderserver/douby-order-service/pom.xml" />
-        <option value="$PROJECT_DIR$/doubyorderserver/douby-order-dto/pom.xml" />
-        <option value="$PROJECT_DIR$/doubyorderserver/douby-order-dao/pom.xml" />
         <option value="$PROJECT_DIR$/doubyorderweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyorderserver/douby-order-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyorderserver/douby-order-dto/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/pom.xml" />
       </list>
     </option>
   </component>
@@ -384,62 +276,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="doouby-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="doouby-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-cart-provider-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-cart-provider-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-cart-provider-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.douby.solr:douby-solr-interface:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-solr-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.douby.solr:douby-solr-interface:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="com.douby.common:doouby-common:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-sso-dto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="douby-sso-dto" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -447,8 +284,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-9" />
+    <option name="y" value="240" />
     <option name="width" value="1361" />
     <option name="height" value="982" />
   </component>
@@ -605,6 +442,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -612,12 +451,36 @@
               <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
               <item name="doubyorderweb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubyorderweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubyorderweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubyorderweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-pro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubyorderweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="orderweb" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1310,7 +1173,8 @@
       <workItem from="1530196406492" duration="882000" />
       <workItem from="1530238997093" duration="1003000" />
       <workItem from="1530319936752" duration="1057000" />
-      <workItem from="1530322554486" duration="14770000" />
+      <workItem from="1530322554486" duration="17419000" />
+      <workItem from="1530370138860" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="sso单点登录 web层">
       <created>1530008141436</created>
@@ -1326,7 +1190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530088007379</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="购物车问题&#10;未登录时：存在Cookie中&#10;登录时：存在Redis中">
+      <created>1530359471470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530359471470</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1362,16 +1233,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303980000" />
+    <option name="totallyTimeSpent" value="306731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.30516684" side_tool="true" weight="0.31428573" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49784714" weight="0.2899288" />
-      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.18958333" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.18958333" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="0" />
@@ -1381,7 +1251,6 @@
       <window_info id="UI Designer" order="1" />
       <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.8304629" weight="0.29387754" />
       <window_info anchor="bottom" id="TODO" order="15" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.69483316" visible="true" weight="0.35510203" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="1" />
@@ -1392,16 +1261,52 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info active="true" content_ui="combo" x="787" y="184" width="283" height="711" id="Project" order="6" visible="true" weight="0.25104168" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32959184" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="5" weight="0.37237978" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.69483316" weight="0.35510203" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32959184" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49784714" weight="0.2899288" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.7906351" weight="0.24018475" />
+      <window_info anchor="bottom" id="Spring" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="5" weight="0.37237978" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32959184" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.30516684" side_tool="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.69483316" visible="true" weight="0.35510203" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" x="787" y="184" width="283" height="711" id="Project" order="6" visible="true" weight="0.25104168" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.18958333" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" weight="0.14800861" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info id="Web" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="12" sideWeight="0.8304629" weight="0.29387754" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1412,7 +1317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sso单点登录 web层" />
     <MESSAGE value="sso单点登录 完成 跨域请求了解" />
-    <option name="LAST_COMMIT_MESSAGE" value="sso单点登录 完成 跨域请求了解" />
+    <MESSAGE value="购物车问题&#10;未登录时：存在Cookie中&#10;登录时：存在Redis中" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车问题&#10;未登录时：存在Cookie中&#10;登录时：存在Redis中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1554,9 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="280" column="35" lean-forward="true" selection-start-line="280" selection-start-column="35" selection-end-line="280" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1606,10 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="981">
           <caret line="77" column="105" lean-forward="true" selection-start-line="77" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1652#1674#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1680,10 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1733,43 +1628,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="114" column="17" lean-forward="true" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-          <folding>
-            <element signature="e#2996#2997#0" expanded="true" />
-            <element signature="e#3026#3027#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerdao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyorderweb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doubyorderserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="-275">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubymanager/doubymanagerdao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyorderserver/douby-order-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doubyorderweb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1827,7 +1730,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>doubyorderserver</last-edited>
+          <last-edited>Web|doubyorderservice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

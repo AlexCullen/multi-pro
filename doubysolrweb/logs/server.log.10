@@ -1,87 +1,172 @@
 
 
-[INFO ] 2018-06-29 10:29:58,724 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+[INFO ] 2018-06-30 21:29:44,171 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
 Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-29 10:30:03,704 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:324)
- [DUBBO] Retry register [consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 21:30:05,171 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
 
 
-[WARN ] 2018-06-29 10:30:03,704 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:332)
- [DUBBO] Failed to retry register [consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374], waiting for again, cause: Failed to register consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!, dubbo version: 2.0.1, current host: 192.168.121.1
-com.alibaba.dubbo.rpc.RpcException: Failed to register consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!
-	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doRegister(ZookeeperRegistry.java:112)
-	at com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:329)
-	at com.alibaba.dubbo.registry.support.FailbackRegistry$1.run(FailbackRegistry.java:70)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.IllegalStateException: Zookeeper is not connected yet!
-	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkClientWrapper.createPersistent(ZkClientWrapper.java:98)
-	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.createPersistent(ZkclientZookeeperClient.java:61)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:63)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doRegister(ZookeeperRegistry.java:110)
-	... 9 more
+[INFO ] 2018-06-30 21:30:06,638 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-29 10:30:03,704 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:369)
- [DUBBO] Retry subscribe {consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374=[com.alibaba.dubbo.registry.integration.RegistryDirectory@7843f07a]}, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 21:30:27,642 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
 
 
-[WARN ] 2018-06-29 10:30:03,704 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:380)
- [DUBBO] Failed to retry subscribe {consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374=[com.alibaba.dubbo.registry.integration.RegistryDirectory@7843f07a]}, waiting for again, cause: Failed to subscribe consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!, dubbo version: 2.0.1, current host: 192.168.121.1
-com.alibaba.dubbo.rpc.RpcException: Failed to subscribe consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!
-	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:185)
-	at com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:377)
-	at com.alibaba.dubbo.registry.support.FailbackRegistry$1.run(FailbackRegistry.java:70)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.IllegalStateException: Zookeeper is not connected yet!
-	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkClientWrapper.createPersistent(ZkClientWrapper.java:98)
-	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.createPersistent(ZkclientZookeeperClient.java:61)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:63)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:176)
-	... 9 more
+[INFO ] 2018-06-30 21:30:29,209 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-29 10:30:08,713 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:324)
- [DUBBO] Retry register [consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 21:30:50,215 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
 
 
-[WARN ] 2018-06-29 10:30:08,713 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:332)
- [DUBBO] Failed to retry register [consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374], waiting for again, cause: Failed to register consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!, dubbo version: 2.0.1, current host: 192.168.121.1
-com.alibaba.dubbo.rpc.RpcException: Failed to register consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!
-	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doRegister(ZookeeperRegistry.java:112)
-	at com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:329)
-	at com.alibaba.dubbo.registry.support.FailbackRegistry$1.run(FailbackRegistry.java:70)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.IllegalStateException: Zookeeper is not connected yet!
-	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkClientWrapper.createPersistent(ZkClientWrapper.java:98)
-	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.createPersistent(ZkclientZookeeperClient.java:61)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:63)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
-	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doRegister(ZookeeperRegistry.java:110)
-	... 9 more
+[INFO ] 2018-06-30 21:30:52,206 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:31:13,210 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:31:14,634 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:31:35,640 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:31:36,758 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:31:57,762 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:31:59,590 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:32:20,593 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:32:21,796 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:32:42,802 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:32:44,405 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:33:05,413 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:33:06,886 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:33:27,890 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:33:29,399 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:33:50,402 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:33:51,864 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:34:12,873 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:34:14,899 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:34:35,906 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:34:37,368 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:34:58,389 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:35:00,416 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:35:21,421 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:35:22,851 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:35:43,865 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:35:45,209 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:36:06,213 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:36:08,141 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:36:29,152 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:36:30,567 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:36:51,575 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:36:52,996 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:37:14,013 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:37:15,324 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:37:36,341 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
+
+
+[INFO ] 2018-06-30 21:37:38,371 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)

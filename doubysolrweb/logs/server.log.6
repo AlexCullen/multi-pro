@@ -1,113 +1,176 @@
 
 
-[WARN ] 2018-06-30 10:31:49,788 method:com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.received(DefaultFuture.java:99)
- [DUBBO] The timeout response finally returned at 2018-06-30 10:31:49.788, response Response [id=2, version=null, status=20, event=false, error=null, result=RpcResult [result=com.douby.solr.dto.SearchResult@b5c6f7e, exception=null]], channel: /192.168.83.189:54232 -> /192.168.83.189:28380, dubbo version: 2.0.1, current host: 192.168.83.189
-
-
-[WARN ] 2018-06-30 10:31:49,789 method:com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.received(DefaultFuture.java:99)
- [DUBBO] The timeout response finally returned at 2018-06-30 10:31:49.789, response Response [id=1, version=null, status=20, event=false, error=null, result=RpcResult [result=com.douby.solr.dto.SearchResult@5ac2e788, exception=null]], channel: /192.168.83.189:54232 -> /192.168.83.189:28380, dubbo version: 2.0.1, current host: 192.168.83.189
-
-
-[WARN ] 2018-06-30 10:31:49,790 method:com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.received(DefaultFuture.java:99)
- [DUBBO] The timeout response finally returned at 2018-06-30 10:31:49.790, response Response [id=0, version=null, status=20, event=false, error=null, result=RpcResult [result=com.douby.solr.dto.SearchResult@59b9065, exception=null]], channel: /192.168.83.189:54232 -> /192.168.83.189:28380, dubbo version: 2.0.1, current host: 192.168.83.189
-
-
-[WARN ] 2018-06-30 10:39:53,299 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1205)
-No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'SpringMVC'
-
-
-[WARN ] 2018-06-30 12:30:05,533 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1237)
-Session 0x100000fdfd30004 for server 192.168.121.144/192.168.121.144:2181, unexpected error, closing socket connection and attempting reconnect
-java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
-	at sun.nio.ch.SocketDispatcher.read0(Native Method)
-	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
-	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
-	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
-	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:75)
-	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:363)
-	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1214)
-
-
-[INFO ] 2018-06-30 12:30:05,643 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
-zookeeper state changed (Disconnected)
-
-
-[INFO ] 2018-06-30 14:13:22,682 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:117)
- [DUBBO] disconected from /192.168.83.189:28380,url:dubbo://192.168.83.189:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=12772&register.ip=192.168.83.189&remote.timestamp=1530325846810&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530325737138, dubbo version: 2.0.1, current host: 192.168.83.189
-
-
-[INFO ] 2018-06-30 14:13:23,444 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
-Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
-
-
-[INFO ] 2018-06-30 14:13:23,446 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+[INFO ] 2018-06-30 21:46:13,898 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
 Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
 
 
-[ERROR] 2018-06-30 14:13:24,355 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:165)
- [DUBBO] client reconnect to 192.168.83.189:28380 find error . url: dubbo://192.168.83.189:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=12772&register.ip=192.168.83.189&remote.timestamp=1530325846810&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530325737138, dubbo version: 2.0.1, current host: 192.168.83.189
-com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.83.189:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=12772&register.ip=192.168.83.189&remote.timestamp=1530325846810&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530325737138) failed to connect to server /192.168.83.189:28380, error message is:No route to host: no further information
-	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:122)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.NoRouteToHostException: No route to host: no further information
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:152)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
-	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
-	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
-	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
-	... 3 more
-
-
-[INFO ] 2018-06-30 14:13:24,773 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+[INFO ] 2018-06-30 21:46:15,079 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
 Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-30 14:13:24,774 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+[INFO ] 2018-06-30 21:46:15,080 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
 Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
 
 
-[INFO ] 2018-06-30 14:13:25,985 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+[INFO ] 2018-06-30 21:46:16,533 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
 Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-30 14:13:25,986 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+[INFO ] 2018-06-30 21:46:16,536 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
 Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
 
 
-[WARN ] 2018-06-30 14:13:26,371 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:170)
- [DUBBO] client reconnect to 192.168.83.189:28380 find error . url: dubbo://192.168.83.189:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=12772&register.ip=192.168.83.189&remote.timestamp=1530325846810&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530325737138, dubbo version: 2.0.1, current host: 192.168.83.189
-com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.83.189:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=12772&register.ip=192.168.83.189&remote.timestamp=1530325846810&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530325737138) failed to connect to server /192.168.83.189:28380, error message is:No route to host: no further information
-	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:122)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.net.NoRouteToHostException: No route to host: no further information
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:152)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
-	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
-	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
-	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
-	... 3 more
+[INFO ] 2018-06-30 21:46:18,358 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:18,358 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:20,120 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:20,120 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:21,305 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:21,305 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:22,567 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:22,568 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:24,048 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:24,049 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:25,560 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:25,560 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:27,424 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:27,425 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:28,990 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:28,990 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:30,350 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:30,351 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:31,948 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:31,949 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:33,206 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:33,207 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:34,833 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:34,833 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:36,092 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:36,093 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:37,292 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:37,293 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:39,123 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:39,123 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:40,784 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:40,785 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:42,457 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:42,458 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:44,316 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:44,316 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:46,008 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:46:46,009 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:46:47,855 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)

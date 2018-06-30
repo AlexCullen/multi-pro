@@ -1,28 +1,16 @@
 
 
-[WARN ] 2018-06-30 18:07:52,404 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1181)
-Client session timed out, have not heard from server in 20000ms for sessionid 0x100000fdfd3003b
+[INFO ] 2018-06-30 21:58:33,172 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
 
 
-[INFO ] 2018-06-30 18:07:52,407 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1229)
-Client session timed out, have not heard from server in 20000ms for sessionid 0x100000fdfd3003b, closing socket connection and attempting reconnect
-
-
-[INFO ] 2018-06-30 18:07:52,510 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
-zookeeper state changed (Disconnected)
-
-
-[INFO ] 2018-06-30 18:07:53,795 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+[INFO ] 2018-06-30 21:58:34,359 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
 Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-30 18:07:53,799 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:947)
-Socket connection established, initiating session, client: /192.168.121.1:58722, server: 192.168.121.144/192.168.121.144:2181
+[INFO ] 2018-06-30 21:58:55,362 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: Connection timed out: no further information
 
 
-[INFO ] 2018-06-30 18:07:53,811 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1381)
-Session establishment complete on server 192.168.121.144/192.168.121.144:2181, sessionid = 0x100000fdfd3003b, negotiated timeout = 30000
-
-
-[INFO ] 2018-06-30 18:07:53,811 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
-zookeeper state changed (SyncConnected)
+[INFO ] 2018-06-30 21:58:56,525 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)

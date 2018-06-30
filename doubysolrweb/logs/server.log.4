@@ -1,152 +1,176 @@
 
 
-[INFO ] 2018-06-30 15:04:15,139 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:425)
- [DUBBO] Refer dubbo service com.douby.solr.service.SolrService from url zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=8956&register.ip=192.168.83.74&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342252355, dubbo version: 2.0.1, current host: 192.168.83.74
+[INFO ] 2018-06-30 21:52:17,324 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
 
 
-[INFO ] 2018-06-30 15:04:16,165 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/search],methods=[GET]}" onto public java.lang.String com.douby.solrweb.controller.SolrController.getItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.io.UnsupportedEncodingException
-
-
-[INFO ] 2018-06-30 15:04:16,221 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-
-
-[INFO ] 2018-06-30 15:04:16,223 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-
-
-[INFO ] 2018-06-30 15:04:16,224 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-
-
-[INFO ] 2018-06-30 15:07:00,320 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
-FrameworkServlet 'SpringMVC': initialization started
-
-
-[INFO ] 2018-06-30 15:07:00,360 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
-Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sat Jun 30 15:07:00 CST 2018]; root of context hierarchy
-
-
-[INFO ] 2018-06-30 15:07:00,479 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
-Loading XML bean definitions from class path resource [spring/applicationContext-springMvc.xml]
-
-
-[INFO ] 2018-06-30 15:07:01,200 method:
-using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
-
-
-[INFO ] 2018-06-30 15:07:03,458 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-
-
-[INFO ] 2018-06-30 15:07:05,509 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:202)
- [DUBBO] Load registry store file C:\Users\Think\.dubbo\dubbo-registry-dubbo-solr-web-192.168.121.144:2181.cache, data: {com.douby.solr.service.SolrService=empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=configurators&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=8956&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342252355 empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=8956&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342252355 empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=8956&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342252355}, dubbo version: 2.0.1, current host: 192.168.83.74
-
-
-[INFO ] 2018-06-30 15:07:05,611 method:com.alibaba.dubbo.common.concurrent.ExecutionList.add(ExecutionList.java:88)
- [DUBBO] Executor for listenablefuture is null, will use default executor!, dubbo version: 2.0.1, current host: 192.168.83.74
-
-
-[INFO ] 2018-06-30 15:07:08,257 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:zookeeper.version=3.5.4-beta-7f51e5b68cf2f80176ff944a9ebd2abbc65e7327, built on 05/11/2018 16:27 GMT
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:host.name=DESKTOP-81JF6DR
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.version=1.8.0_171
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.vendor=Oracle Corporation
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.home=C:\Program Files\Java\jdk1.8.0_171\jre
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.class.path=E:\Intellij Idea\idealU-2018install\IntelliJ IDEA 2018.1.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;E:\Intellij Idea\idealU-2018install\IntelliJ IDEA 2018.1.5\lib\idea_rt.jar
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;E:\spring-1.3.0.RELEASE\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\maven\apache-maven-3.5.2\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\gitwork\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
-
-
-[INFO ] 2018-06-30 15:07:08,258 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.io.tmpdir=C:\Users\Think\AppData\Local\Temp\
-
-
-[INFO ] 2018-06-30 15:07:08,259 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.compiler=<NA>
-
-
-[INFO ] 2018-06-30 15:07:08,259 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.name=Windows 10
-
-
-[INFO ] 2018-06-30 15:07:08,260 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.arch=amd64
-
-
-[INFO ] 2018-06-30 15:07:08,260 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.version=10.0
-
-
-[INFO ] 2018-06-30 15:07:08,260 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:user.name=Think
-
-
-[INFO ] 2018-06-30 15:07:08,260 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:user.home=C:\Users\Think
-
-
-[INFO ] 2018-06-30 15:07:08,260 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:user.dir=E:\workspace\multi-pro\doubysolrweb
-
-
-[INFO ] 2018-06-30 15:07:08,261 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.memory.free=170MB
-
-
-[INFO ] 2018-06-30 15:07:08,261 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.memory.max=455MB
-
-
-[INFO ] 2018-06-30 15:07:08,261 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.memory.total=248MB
-
-
-[INFO ] 2018-06-30 15:07:08,263 method:org.apache.zookeeper.ZooKeeper.<init>(ZooKeeper.java:868)
-Initiating client connection, connectString=192.168.121.144:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@108d3655
-
-
-[INFO ] 2018-06-30 15:07:08,292 method:org.apache.zookeeper.ClientCnxnSocket.initProperties(ClientCnxnSocket.java:236)
-jute.maxbuffer value is 4194304 Bytes
-
-
-[INFO ] 2018-06-30 15:07:08,294 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
-Starting ZkClient event thread.
-
-
-[INFO ] 2018-06-30 15:07:08,655 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+[INFO ] 2018-06-30 21:52:19,324 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
 Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-30 15:07:08,660 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:947)
-Socket connection established, initiating session, client: /192.168.121.1:51261, server: 192.168.121.144/192.168.121.144:2181
+[INFO ] 2018-06-30 21:52:19,325 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
 
 
-[INFO ] 2018-06-30 15:07:08,841 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1381)
-Session establishment complete on server 192.168.121.144/192.168.121.144:2181, sessionid = 0x100000fdfd3002f, negotiated timeout = 30000
+[INFO ] 2018-06-30 21:52:21,278 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[INFO ] 2018-06-30 15:07:08,858 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
-zookeeper state changed (SyncConnected)
+[INFO ] 2018-06-30 21:52:21,280 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
 
 
-[INFO ] 2018-06-30 15:07:09,114 method:com.alibaba.dubbo.registry.support.AbstractRegistry.register(AbstractRegistry.java:272)
- [DUBBO] Register: consumer://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, dubbo version: 2.0.1, current host: 192.168.83.74
+[INFO ] 2018-06-30 21:52:23,240 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:23,240 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:25,203 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:25,204 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:26,672 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:26,672 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:28,197 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:28,209 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:30,284 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:30,285 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:31,524 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:31,525 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:33,084 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:33,084 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:34,782 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:34,782 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:36,117 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:36,117 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:38,148 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:38,158 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:39,963 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:39,973 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:41,478 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:41,479 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:43,349 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:43,360 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:45,400 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:45,401 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:46,884 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:46,884 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:48,491 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:48,491 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:49,715 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:49,715 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:51,037 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:51,037 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:52,431 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
+
+
+[INFO ] 2018-06-30 21:52:52,441 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1235)
+Socket error occurred: 192.168.121.144/192.168.121.144:2181: No route to host: no further information
+
+
+[INFO ] 2018-06-30 21:52:54,508 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
