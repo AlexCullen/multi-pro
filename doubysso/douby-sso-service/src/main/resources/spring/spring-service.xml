@@ -11,7 +11,7 @@
 
     <dubbo:application name="sso" owner="douby"/>
 
-    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.121.144" port="2181"/>
 
     <dubbo:protocol name="dubbo" port="20884"/>
 

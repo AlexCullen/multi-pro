@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service" />
+    <file type="web" url="file://$PROJECT_DIR$/doubycartweb" />
     <file type="web" url="file://$PROJECT_DIR$/doubycontent/doubycontentservice" />
     <file type="web" url="file://$PROJECT_DIR$/doubycontentweb" />
     <file type="web" url="file://$PROJECT_DIR$/doubyitemweb" />
     <file type="web" url="file://$PROJECT_DIR$/doubymanager/doubymanagercontroller" />
     <file type="web" url="file://$PROJECT_DIR$/doubymanager/doubymanagerservice" />
     <file type="web" url="file://$PROJECT_DIR$/doubymanagercontroller" />
+    <file type="web" url="file://$PROJECT_DIR$/doubyorderserver/douby-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/doubyorderweb" />
     <file type="web" url="file://$PROJECT_DIR$/doubysolr/doubysolrservice" />
     <file type="web" url="file://$PROJECT_DIR$/doubysolrweb" />
     <file type="web" url="file://$PROJECT_DIR$/doubysso/douby-sso-service" />
@@ -28,6 +32,10 @@
         <option value="$PROJECT_DIR$/doubyitemweb/pom.xml" />
         <option value="$PROJECT_DIR$/doubysso/pom.xml" />
         <option value="$PROJECT_DIR$/doubyssoweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubycartprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/doubycartweb/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyorderserver/pom.xml" />
+        <option value="$PROJECT_DIR$/doubyorderweb/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <import resource="classpath:spring/redis.xml"/>
+    <import resource="classpath:spring/applicationContext-dao.xml"/>
+    <import resource="classpath:spring/applicationContext-trans.xml"/>
+
+    <context:property-placeholder location="classpath:conf/sample.properties"/>
+
+    <context:component-scan base-package="com.douby.cartproviderservice.service"/>
+
+    <dubbo:application name="cart-provider" owner="douby"/>
+
+    <dubbo:registry protocol="zookeeper" address="192.168.121.144" port="2181"/>
+
+    <dubbo:protocol port="20885"/>
+
+    <dubbo:service interface="com.douby.cartproviderinterface.service.CartService" ref="cartServiceImpl"/>
+
+
+</beans>

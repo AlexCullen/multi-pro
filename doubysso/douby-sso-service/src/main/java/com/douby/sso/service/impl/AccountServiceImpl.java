@@ -112,6 +112,7 @@ public class AccountServiceImpl implements AccountService {
         }
 
         UserDto userDto = new UserDto();
+        userDto.setId(tbUser.getId());
         userDto.setUsername(tbUser.getUsername());
         userDto.setPhone(tbUser.getPhone());
         userDto.setEmail(tbUser.getEmail());

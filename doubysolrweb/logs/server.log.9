@@ -1,144 +1,82 @@
 
 
-[INFO ] 2018-06-27 09:11:49,152 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:425)
- [DUBBO] Refer dubbo service com.douby.solr.service.SolrService from url zookeeper://192.168.121.142:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=dubbo-solr-web&check=false&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=13656&register.ip=192.168.121.1&remote.timestamp=1530061866205&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530061907978, dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[INFO ] 2018-06-27 09:11:49,457 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/search],methods=[GET]}" onto public java.lang.String com.douby.solrweb.controller.SolrController.getItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.io.UnsupportedEncodingException
-
-
-[INFO ] 2018-06-27 09:11:49,475 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-
-
-[INFO ] 2018-06-27 09:11:49,486 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-
-
-[INFO ] 2018-06-27 09:11:49,488 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
-Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-
-
-[INFO ] 2018-06-27 09:11:50,469 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:574)
-Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jun 27 09:11:44 CST 2018]; root of context hierarchy
-
-
-[INFO ] 2018-06-27 09:11:50,603 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:574)
-Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jun 27 09:11:44 CST 2018]; root of context hierarchy
-
-
-[INFO ] 2018-06-27 09:11:51,821 method:springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
-Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-
-
-[INFO ] 2018-06-27 09:11:51,937 method:org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:351)
-Starting beans in phase 2147483647
-
-
-[INFO ] 2018-06-27 09:11:51,937 method:springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:151)
-Context refreshed
-
-
-[INFO ] 2018-06-27 09:11:52,049 method:springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:154)
-Found 1 custom documentation plugin(s)
-
-
-[INFO ] 2018-06-27 09:11:52,172 method:springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
-Scanning for api listing references
-
-
-[INFO ] 2018-06-27 09:11:52,380 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:509)
-FrameworkServlet 'SpringMVC': initialization completed in 7438 ms
-
-
-[INFO ] 2018-06-27 09:29:40,950 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
-FrameworkServlet 'SpringMVC': initialization started
-
-
-[INFO ] 2018-06-27 09:29:40,969 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
-Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Jun 27 09:29:40 CST 2018]; root of context hierarchy
-
-
-[INFO ] 2018-06-27 09:29:41,003 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
-Loading XML bean definitions from class path resource [spring/applicationContext-springMvc.xml]
-
-
-[INFO ] 2018-06-27 09:29:41,244 method:
-using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
-
-
-[INFO ] 2018-06-27 09:29:41,638 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-
-
-[INFO ] 2018-06-27 09:29:42,020 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:202)
- [DUBBO] Load registry store file C:\Users\Think\.dubbo\dubbo-registry-dubbo-solr-web-192.168.121.142:2181.cache, data: {com.douby.solr.service.SolrService=empty://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=configurators&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=13656&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530061907978 empty://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=13656&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530061907978 dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15100&side=provider&timestamp=1530061866205}, dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[INFO ] 2018-06-27 09:29:42,027 method:com.alibaba.dubbo.common.concurrent.ExecutionList.add(ExecutionList.java:88)
- [DUBBO] Executor for listenablefuture is null, will use default executor!, dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[INFO ] 2018-06-27 09:29:42,037 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
-Starting ZkClient event thread.
-
-
-[INFO ] 2018-06-27 09:29:53,945 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:zookeeper.version=3.5.4-beta-7f51e5b68cf2f80176ff944a9ebd2abbc65e7327, built on 05/11/2018 16:27 GMT
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:host.name=192.168.121.1
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.version=1.8.0_171
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.vendor=Oracle Corporation
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.home=C:\Program Files\Java\jdk1.8.0_171\jre
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.class.path=E:\Intellij Idea\idealU-2018install\IntelliJ IDEA 2018.1.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;E:\Intellij Idea\idealU-2018install\IntelliJ IDEA 2018.1.5\lib\idea_rt.jar
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.library.path=C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;E:\spring-1.3.0.RELEASE\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\maven\apache-maven-3.5.2\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\gitwork\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;.
-
-
-[INFO ] 2018-06-27 09:29:53,946 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.io.tmpdir=C:\Users\Think\AppData\Local\Temp\
-
-
-[INFO ] 2018-06-27 09:29:53,947 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:java.compiler=<NA>
-
-
-[INFO ] 2018-06-27 09:29:53,947 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.name=Windows 10
-
-
-[INFO ] 2018-06-27 09:29:53,947 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.arch=amd64
-
-
-[INFO ] 2018-06-27 09:29:53,947 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:os.version=10.0
-
-
-[INFO ] 2018-06-27 09:29:53,948 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:user.name=Think
-
-
-[INFO ] 2018-06-27 09:29:53,948 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:user.home=C:\Users\Think
-
-
-[INFO ] 2018-06-27 09:29:53,948 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
-Client environment:user.dir=E:\workspace\multi-pro\doubysolrweb
+[INFO ] 2018-06-29 10:30:08,723 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:369)
+ [DUBBO] Retry subscribe {consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374=[com.alibaba.dubbo.registry.integration.RegistryDirectory@7843f07a]}, dubbo version: 2.0.1, current host: 192.168.121.1
+
+
+[WARN ] 2018-06-29 10:30:08,723 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:380)
+ [DUBBO] Failed to retry subscribe {consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374=[com.alibaba.dubbo.registry.integration.RegistryDirectory@7843f07a]}, waiting for again, cause: Failed to subscribe consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!, dubbo version: 2.0.1, current host: 192.168.121.1
+com.alibaba.dubbo.rpc.RpcException: Failed to subscribe consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:185)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:377)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry$1.run(FailbackRegistry.java:70)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Zookeeper is not connected yet!
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkClientWrapper.createPersistent(ZkClientWrapper.java:98)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.createPersistent(ZkclientZookeeperClient.java:61)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:63)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:176)
+	... 9 more
+
+
+[INFO ] 2018-06-29 10:30:13,734 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:324)
+ [DUBBO] Retry register [consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374], dubbo version: 2.0.1, current host: 192.168.121.1
+
+
+[WARN ] 2018-06-29 10:30:13,734 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:332)
+ [DUBBO] Failed to retry register [consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374], waiting for again, cause: Failed to register consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!, dubbo version: 2.0.1, current host: 192.168.121.1
+com.alibaba.dubbo.rpc.RpcException: Failed to register consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=consumers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doRegister(ZookeeperRegistry.java:112)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:329)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry$1.run(FailbackRegistry.java:70)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Zookeeper is not connected yet!
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkClientWrapper.createPersistent(ZkClientWrapper.java:98)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.createPersistent(ZkclientZookeeperClient.java:61)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:63)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doRegister(ZookeeperRegistry.java:110)
+	... 9 more
+
+
+[INFO ] 2018-06-29 10:30:13,734 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:369)
+ [DUBBO] Retry subscribe {consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374=[com.alibaba.dubbo.registry.integration.RegistryDirectory@7843f07a]}, dubbo version: 2.0.1, current host: 192.168.121.1
+
+
+[WARN ] 2018-06-29 10:30:13,734 method:com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:380)
+ [DUBBO] Failed to retry subscribe {consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374=[com.alibaba.dubbo.registry.integration.RegistryDirectory@7843f07a]}, waiting for again, cause: Failed to subscribe consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!, dubbo version: 2.0.1, current host: 192.168.121.1
+com.alibaba.dubbo.rpc.RpcException: Failed to subscribe consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15096&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530239343374 to zookeeper zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&dubbo=2.0.1&interface=com.alibaba.dubbo.registry.RegistryService&owner=cpzh&pid=15096&timeout=30000&timestamp=1530239343444, cause: Zookeeper is not connected yet!
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:185)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry.retry(FailbackRegistry.java:377)
+	at com.alibaba.dubbo.registry.support.FailbackRegistry$1.run(FailbackRegistry.java:70)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Zookeeper is not connected yet!
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkClientWrapper.createPersistent(ZkClientWrapper.java:98)
+	at com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.createPersistent(ZkclientZookeeperClient.java:61)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:63)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.create(AbstractZookeeperClient.java:57)
+	at com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.doSubscribe(ZookeeperRegistry.java:176)
+	... 9 more

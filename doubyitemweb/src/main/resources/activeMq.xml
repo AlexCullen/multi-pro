@@ -5,7 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/context/beans http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="targetConnFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
-        <constructor-arg name="brokerURL" value="failover://tcp://192.168.121.142:61616"/>
+        <constructor-arg name="brokerURL" value="failover://tcp://192.168.121.144:61616"/>
         <constructor-arg name="userName" value="admin"/>
         <constructor-arg name="password" value="admin"/>
     </bean>

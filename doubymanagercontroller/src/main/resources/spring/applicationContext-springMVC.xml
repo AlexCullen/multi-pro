@@ -21,11 +21,11 @@
 
     <dubbo:application name="e3-manager-controller"/>
 
-    <dubbo:registry protocol="zookeeper" address="192.168.121.142:2181" timeout="30000"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.121.144:2181" timeout="30000"/>
 
-    <dubbo:reference interface="com.douby.manager.service.ItemService" id="itemService"/>
-    <dubbo:reference interface="com.douby.manager.service.ItemCastService" id="itemCastService"/>
-    <dubbo:reference interface="com.douby.content.service.ContentCategoryService" id="contentCategoryService"/>
-    <dubbo:reference interface="com.douby.solr.service.SolrItemService" id="solrItemService" timeout="30000"/>
+    <dubbo:reference interface="com.douby.manager.service.ItemService" id="itemService" check="false"/>
+    <dubbo:reference interface="com.douby.manager.service.ItemCastService" id="itemCastService" check="false"/>
+    <dubbo:reference interface="com.douby.content.service.ContentCategoryService" id="contentCategoryService" check="false"/>
+    <dubbo:reference interface="com.douby.solr.service.SolrItemService" id="solrItemService" timeout="30000" check="false"/>
 
 </beans>

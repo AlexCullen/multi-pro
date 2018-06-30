@@ -22,8 +22,8 @@
 
     <dubbo:application name="e3-manager-controller"/>
 
-    <dubbo:registry protocol="zookeeper" address="192.168.121.142:2181" timeout="30000"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.121.144:2181" timeout="30000"/>
 
-    <dubbo:reference interface="com.douby.content.service.ContentCategoryService" id="contentCategoryServiceImpl"/>
-    <dubbo:reference interface="com.douby.content.service.ContentService" id="contentService"/>
+    <dubbo:reference interface="com.douby.content.service.ContentCategoryService" id="contentCategoryServiceImpl" check="false"/>
+    <dubbo:reference interface="com.douby.content.service.ContentService" id="contentService" check="false"/>
 </beans>

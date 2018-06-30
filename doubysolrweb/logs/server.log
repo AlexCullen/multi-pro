@@ -1,67 +1,28 @@
 
 
-[WARN ] 2018-06-27 09:51:11,597 method:com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.received(DefaultFuture.java:99)
- [DUBBO] The timeout response finally returned at 2018-06-27 09:51:11.597, response Response [id=7, version=null, status=20, event=false, error=null, result=RpcResult [result=com.douby.solr.dto.SearchResult@2d692206, exception=null]], channel: /192.168.121.1:59496 -> /192.168.121.1:28380, dubbo version: 2.0.1, current host: 192.168.121.1
+[WARN ] 2018-06-30 18:07:52,404 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1181)
+Client session timed out, have not heard from server in 20000ms for sessionid 0x100000fdfd3003b
 
 
-[WARN ] 2018-06-27 09:51:11,618 method:com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.received(DefaultFuture.java:99)
- [DUBBO] The timeout response finally returned at 2018-06-27 09:51:11.618, response Response [id=8, version=null, status=20, event=false, error=null, result=RpcResult [result=com.douby.solr.dto.SearchResult@23aed9db, exception=null]], channel: /192.168.121.1:59496 -> /192.168.121.1:28380, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 18:07:52,407 method:org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1229)
+Client session timed out, have not heard from server in 20000ms for sessionid 0x100000fdfd3003b, closing socket connection and attempting reconnect
 
 
-[WARN ] 2018-06-27 09:51:45,700 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1205)
-No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'SpringMVC'
+[INFO ] 2018-06-30 18:07:52,510 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (Disconnected)
 
 
-[WARN ] 2018-06-27 09:51:47,046 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1205)
-No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'SpringMVC'
+[INFO ] 2018-06-30 18:07:53,795 method:org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(ClientCnxn.java:1106)
+Opening socket connection to server 192.168.121.144/192.168.121.144:2181. Will not attempt to authenticate using SASL (unknown error)
 
 
-[WARN ] 2018-06-27 10:29:08,777 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1205)
-No mapping found for HTTP request with URI [/] in DispatcherServlet with name 'SpringMVC'
+[INFO ] 2018-06-30 18:07:53,799 method:org.apache.zookeeper.ClientCnxn$SendThread.primeConnection(ClientCnxn.java:947)
+Socket connection established, initiating session, client: /192.168.121.1:58722, server: 192.168.121.144/192.168.121.144:2181
 
 
-[INFO ] 2018-06-27 10:57:33,350 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:117)
- [DUBBO] disconected from /192.168.121.1:28380,url:dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 18:07:53,811 method:org.apache.zookeeper.ClientCnxn$SendThread.onConnected(ClientCnxn.java:1381)
+Session establishment complete on server 192.168.121.144/192.168.121.144:2181, sessionid = 0x100000fdfd3003b, negotiated timeout = 30000
 
 
-[WARN ] 2018-06-27 10:57:35,028 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:170)
- [DUBBO] client reconnect to 192.168.121.1:28380 find error . url: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, dubbo version: 2.0.1, current host: 192.168.121.1
-com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061) failed to connect to server /192.168.121.1:28380, error message is:connection timed out: /192.168.121.1:28380
-	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:122)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out: /192.168.121.1:28380
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
-	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
-	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
-	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
-	... 3 more
-
-
-[INFO ] 2018-06-27 10:57:55,996 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
- [DUBBO] Notify urls for subscribe url consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, urls: [empty://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061], dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[INFO ] 2018-06-27 10:58:02,124 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
- [DUBBO] Notify urls for subscribe url consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, urls: [dubbo://192.168.83.143:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=15680&side=provider&timestamp=1530068281472], dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[INFO ] 2018-06-27 10:58:02,136 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273)
- [DUBBO] Successed connect to server /192.168.83.143:28380 from NettyClient 192.168.121.1 using dubbo version 2.0.1, channel is NettyChannel [channel=[id: 0x04128c07, /192.168.83.143:54000 => /192.168.83.143:28380]], dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[INFO ] 2018-06-27 10:58:02,137 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:91)
- [DUBBO] Start NettyClient DESKTOP-81JF6DR/192.168.121.1 connect to the server /192.168.83.143:28380, dubbo version: 2.0.1, current host: 192.168.121.1
-
-
-[WARN ] 2018-06-27 11:22:14,927 method:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1205)
-No mapping found for HTTP request with URI [/html/web/_public/_ajaxStaticMenu.html] in DispatcherServlet with name 'SpringMVC'
+[INFO ] 2018-06-30 18:07:53,811 method:org.I0Itec.zkclient.ZkClient.processStateChanged(ZkClient.java:449)
+zookeeper state changed (SyncConnected)

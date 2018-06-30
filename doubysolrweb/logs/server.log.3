@@ -1,125 +1,108 @@
 
 
-[INFO ] 2018-06-27 09:47:44,477 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:117)
- [DUBBO] disconected from /192.168.121.1:28380,url:dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530061866205&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:09,613 method:com.alibaba.dubbo.registry.support.AbstractRegistry.subscribe(AbstractRegistry.java:295)
+ [DUBBO] Subscribe: consumer://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, dubbo version: 2.0.1, current host: 192.168.83.74
 
 
-[WARN ] 2018-06-27 09:47:47,271 method:com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:170)
- [DUBBO] client reconnect to 192.168.121.1:28380 find error . url: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530061866205&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, dubbo version: 2.0.1, current host: 192.168.121.1
-com.alibaba.dubbo.remoting.RemotingException: client(url: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530061866205&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061) failed to connect to server /192.168.121.1:28380, error message is:connection timed out: /192.168.121.1:28380
-	at com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:122)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:266)
-	at com.alibaba.dubbo.remoting.transport.AbstractClient$1.run(AbstractClient.java:155)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.jboss.netty.channel.ConnectTimeoutException: connection timed out: /192.168.121.1:28380
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
-	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
-	at org.jboss.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
-	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
-	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
-	... 3 more
+[INFO ] 2018-06-30 15:07:09,778 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, urls: [empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=configurators&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262], dubbo version: 2.0.1, current host: 192.168.83.74
 
 
-[INFO ] 2018-06-27 09:48:01,342 method:com.alibaba.dubbo.remoting.transport.netty.NettyClient.doConnect(NettyClient.java:99)
- [DUBBO] Close old netty channel [id: 0x4fa3b15f, /192.168.121.1:58858 :> /192.168.121.1:28380] on create new netty channel [id: 0x190d2c16, /192.168.121.1:59083 => /192.168.121.1:28380], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:09,785 method:com.alibaba.dubbo.config.ReferenceConfig.createProxy(ReferenceConfig.java:425)
+ [DUBBO] Refer dubbo service com.douby.solr.service.SolrService from url zookeeper://192.168.121.144:2181/com.alibaba.dubbo.registry.RegistryService?application=dubbo-solr-web&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&register.ip=192.168.83.74&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, dubbo version: 2.0.1, current host: 192.168.83.74
 
 
-[INFO ] 2018-06-27 09:48:01,342 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273)
- [DUBBO] Successed connect to server /192.168.121.1:28380 from NettyClient 192.168.121.1 using dubbo version 2.0.1, channel is NettyChannel [channel=[id: 0x190d2c16, /192.168.121.1:59083 => /192.168.121.1:28380]], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:10,264 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
+Mapped "{[/search],methods=[GET]}" onto public java.lang.String com.douby.solrweb.controller.SolrController.getItemList(java.lang.String,java.lang.Integer,org.springframework.ui.Model) throws java.io.UnsupportedEncodingException
 
 
-[INFO ] 2018-06-27 09:48:09,645 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
- [DUBBO] Notify urls for subscribe url consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, urls: [empty://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:10,299 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
+Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
 
 
-[INFO ] 2018-06-27 09:48:09,649 method:com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:133)
- [DUBBO] Close netty channel [id: 0x190d2c16, /192.168.121.1:59083 => /192.168.121.1:28380], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:10,300 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
+Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
 
 
-[INFO ] 2018-06-27 09:48:09,652 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:117)
- [DUBBO] disconected from /192.168.121.1:28380,url:dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530061866205&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:10,302 method:org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:547)
+Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
 
 
-[INFO ] 2018-06-27 09:48:11,900 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
- [DUBBO] Notify urls for subscribe url consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, urls: [dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=4996&side=provider&timestamp=1530064079607], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:12,903 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:574)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sat Jun 30 15:07:00 CST 2018]; root of context hierarchy
 
 
-[INFO ] 2018-06-27 09:48:11,903 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273)
- [DUBBO] Successed connect to server /192.168.121.1:28380 from NettyClient 192.168.121.1 using dubbo version 2.0.1, channel is NettyChannel [channel=[id: 0xdbd32824, /192.168.121.1:59105 => /192.168.121.1:28380]], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:14,339 method:org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache(RequestMappingHandlerAdapter.java:574)
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sat Jun 30 15:07:00 CST 2018]; root of context hierarchy
 
 
-[INFO ] 2018-06-27 09:48:11,904 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:91)
- [DUBBO] Start NettyClient DESKTOP-81JF6DR/192.168.121.1 connect to the server /192.168.121.1:28380, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:07:17,332 method:springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
 
 
-[ERROR] 2018-06-27 09:48:27,519 method:com.douby.exception.GlobalExceptionResolver.resolveException(GlobalExceptionResolver.java:53)
+[INFO ] 2018-06-30 15:07:17,795 method:org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:351)
+Starting beans in phase 2147483647
 
-com.alibaba.dubbo.rpc.RpcException: Failed to invoke the method search in the service com.douby.solr.service.SolrService. Tried 3 times of the providers [192.168.121.1:28380] (1/1) from the registry 192.168.121.142:2181 on the consumer 192.168.121.1 using the dubbo version 2.0.1. Last error is: Invoke remote method timeout. method: search, provider: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, cause: Waiting server-side response timeout. start time: 2018-06-27 09:48:26.518, end time: 2018-06-27 09:48:27.519, client elapsed: 0 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=3, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.121.1:59105 -> /192.168.121.1:28380
-	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:101)
-	at com.alibaba.dubbo.rpc.cluster.support.AbstractClusterInvoker.invoke(AbstractClusterInvoker.java:232)
-	at com.alibaba.dubbo.rpc.cluster.support.wrapper.MockClusterInvoker.invoke(MockClusterInvoker.java:70)
-	at com.alibaba.dubbo.rpc.proxy.InvokerInvocationHandler.invoke(InvokerInvocationHandler.java:51)
-	at com.alibaba.dubbo.common.bytecode.proxy0.search(proxy0.java)
-	at com.douby.solrweb.controller.SolrController.getItemList(SolrController.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
-	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.alibaba.dubbo.remoting.TimeoutException: Waiting server-side response timeout. start time: 2018-06-27 09:48:26.518, end time: 2018-06-27 09:48:27.519, client elapsed: 0 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=3, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.121.1:59105 -> /192.168.121.1:28380
-	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:134)
-	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:111)
-	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:95)
-	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:142)
-	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:74)
-	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
-	at com.alibaba.dubbo.rpc.protocol.dubbo.filter.FutureFilter.invoke(FutureFilter.java:53)
-	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
-	at com.alibaba.dubbo.rpc.filter.ConsumerContextFilter.invoke(ConsumerContextFilter.java:47)
-	at com.alibaba.dubbo.rpc.protocol.ProtocolFilterWrapper$1.invoke(ProtocolFilterWrapper.java:68)
-	at com.alibaba.dubbo.rpc.listener.ListenerInvokerWrapper.invoke(ListenerInvokerWrapper.java:73)
-	at com.alibaba.dubbo.rpc.protocol.InvokerWrapper.invoke(InvokerWrapper.java:52)
-	at com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:77)
-	... 45 more
+
+[INFO ] 2018-06-30 15:07:17,796 method:springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:151)
+Context refreshed
+
+
+[INFO ] 2018-06-30 15:07:18,045 method:springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:154)
+Found 1 custom documentation plugin(s)
+
+
+[INFO ] 2018-06-30 15:07:18,321 method:springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+
+
+[INFO ] 2018-06-30 15:07:18,895 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:509)
+FrameworkServlet 'SpringMVC': initialization completed in 18570 ms
+
+
+[INFO ] 2018-06-30 15:07:37,937 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262, urls: [dubbo://192.168.83.74:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=16408&side=provider&timestamp=1530342455663], dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[INFO ] 2018-06-30 15:07:38,490 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273)
+ [DUBBO] Successed connect to server /192.168.83.74:28380 from NettyClient 192.168.83.74 using dubbo version 2.0.1, channel is NettyChannel [channel=[id: 0x42bebe58, /192.168.83.74:51390 => /192.168.83.74:28380]], dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[INFO ] 2018-06-30 15:07:38,491 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:91)
+ [DUBBO] Start NettyClient DESKTOP-81JF6DR/192.168.83.74 connect to the server /192.168.83.74:28380, dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[INFO ] 2018-06-30 15:10:12,070 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+FrameworkServlet 'SpringMVC': initialization started
+
+
+[INFO ] 2018-06-30 15:10:12,087 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:590)
+Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Sat Jun 30 15:10:12 CST 2018]; root of context hierarchy
+
+
+[INFO ] 2018-06-30 15:10:12,124 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:316)
+Loading XML bean definitions from class path resource [spring/applicationContext-springMvc.xml]
+
+
+[INFO ] 2018-06-30 15:10:12,348 method:
+using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+
+
+[INFO ] 2018-06-30 15:10:12,792 method:org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.<init>(AutowiredAnnotationBeanPostProcessor.java:154)
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+
+
+[INFO ] 2018-06-30 15:10:13,200 method:com.alibaba.dubbo.registry.support.AbstractRegistry.loadProperties(AbstractRegistry.java:202)
+ [DUBBO] Load registry store file C:\Users\Think\.dubbo\dubbo-registry-dubbo-solr-web-192.168.121.144:2181.cache, data: {com.douby.solr.service.SolrService=empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=configurators&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262 empty://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18268&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342425262 dubbo://192.168.83.74:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=16408&side=provider&timestamp=1530342455663}, dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[INFO ] 2018-06-30 15:10:13,208 method:com.alibaba.dubbo.common.concurrent.ExecutionList.add(ExecutionList.java:88)
+ [DUBBO] Executor for listenablefuture is null, will use default executor!, dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[INFO ] 2018-06-30 15:10:13,217 method:org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:64)
+Starting ZkClient event thread.
+
+
+[INFO ] 2018-06-30 15:10:13,227 method:org.apache.zookeeper.Environment.logEnv(Environment.java:109)
+Client environment:zookeeper.version=3.5.4-beta-7f51e5b68cf2f80176ff944a9ebd2abbc65e7327, built on 05/11/2018 16:27 GMT

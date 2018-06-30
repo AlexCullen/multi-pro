@@ -21,8 +21,8 @@
 
     <dubbo:application name="sso-web" owner="douby"/>
 
-    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.121.144" port="2181"/>
 
-    <dubbo:reference interface="com.douby.sso.service.AccountService" id="accountService"/>
+    <dubbo:reference interface="com.douby.sso.service.AccountService" id="accountService" check="false"/>
 
 </beans>

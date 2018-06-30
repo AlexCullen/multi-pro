@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="doubycartproviderservice:war">
+    <output-path>$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/target</output-path>
+    <root id="archive" name="douby-cart-provider-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="doubycartproviderservice:war exploded" />
+    </root>
+  </artifact>
+</component>

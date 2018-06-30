@@ -24,9 +24,9 @@
 
     <dubbo:application name="dubbo-solr-web" owner="cpzh"/>
 
-    <dubbo:registry protocol="zookeeper" address="192.168.121.142" port="2181" timeout="30000"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.121.144" port="2181" timeout="30000"/>
 
-    <dubbo:reference interface="com.douby.solr.service.SolrItemService" id="solrItemService"/>
-    <dubbo:reference interface="com.douby.solr.service.SolrService" id="solrService"/>
+    <dubbo:reference interface="com.douby.solr.service.SolrItemService" id="solrItemService" check="false"/>
+    <dubbo:reference interface="com.douby.solr.service.SolrService" id="solrService" check="false"/>
 
 </beans>

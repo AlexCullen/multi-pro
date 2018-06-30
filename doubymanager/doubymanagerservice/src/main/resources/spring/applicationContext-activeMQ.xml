@@ -7,7 +7,7 @@
     <bean id="targetConnFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
         <constructor-arg name="userName" value="admin"/>
         <constructor-arg name="password" value="admin"/>
-        <constructor-arg name="brokerURL" value="failover://tcp://192.168.121.142:61616"/>
+        <constructor-arg name="brokerURL" value="failover://tcp://192.168.121.144:61616"/>
     </bean>
 
     <!-- Spring管理的链接工厂  代理吧应该是 -->

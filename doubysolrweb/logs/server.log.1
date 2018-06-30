@@ -1,32 +1,44 @@
 
 
-[INFO ] 2018-06-27 09:50:33,650 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
- [DUBBO] Notify urls for subscribe url consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, urls: [empty://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:10:14,436 method:org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:351)
+Starting beans in phase 2147483647
 
 
-[INFO ] 2018-06-27 09:50:33,651 method:com.alibaba.dubbo.remoting.transport.netty.NettyChannel.close(NettyChannel.java:133)
- [DUBBO] Close netty channel [id: 0x8993f4fb, /192.168.121.1:59298 => /192.168.121.1:28380], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:10:14,436 method:springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:151)
+Context refreshed
 
 
-[INFO ] 2018-06-27 09:50:33,652 method:com.alibaba.dubbo.rpc.protocol.dubbo.DubboProtocol$1.disconnected(DubboProtocol.java:117)
- [DUBBO] disconected from /192.168.121.1:28380,url:dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&codec=dubbo&dubbo=2.0.1&generic=false&heartbeat=60000&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:10:14,466 method:springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:154)
+Found 1 custom documentation plugin(s)
 
 
-[INFO ] 2018-06-27 09:51:06,427 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
- [DUBBO] Notify urls for subscribe url consumer://192.168.121.1/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, urls: [dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=4996&side=provider&timestamp=1530064079607], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:10:14,493 method:springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
 
 
-[INFO ] 2018-06-27 09:51:06,430 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273)
- [DUBBO] Successed connect to server /192.168.121.1:28380 from NettyClient 192.168.121.1 using dubbo version 2.0.1, channel is NettyChannel [channel=[id: 0xaf0bd200, /192.168.121.1:59496 => /192.168.121.1:28380]], dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:10:14,536 method:org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:509)
+FrameworkServlet 'SpringMVC': initialization completed in 2464 ms
 
 
-[INFO ] 2018-06-27 09:51:06,430 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:91)
- [DUBBO] Start NettyClient DESKTOP-81JF6DR/192.168.121.1 connect to the server /192.168.121.1:28380, dubbo version: 2.0.1, current host: 192.168.121.1
+[INFO ] 2018-06-30 15:10:35,082 method:com.alibaba.dubbo.registry.support.AbstractRegistry.notify(AbstractRegistry.java:383)
+ [DUBBO] Notify urls for subscribe url consumer://192.168.83.74/com.douby.solr.service.SolrService?application=dubbo-solr-web&category=providers,configurators,routers&check=false&dubbo=2.0.1&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=20364&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342613133, urls: [dubbo://192.168.83.74:28380/com.douby.solr.service.SolrService?anyhost=true&application=doubt-solr-dubbo&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=18416&side=provider&timestamp=1530342634669], dubbo version: 2.0.1, current host: 192.168.83.74
 
 
-[WARN ] 2018-06-27 09:51:11,596 method:com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:79)
- [DUBBO] Although retry the method search in the service com.douby.solr.service.SolrService was successful by the provider 192.168.121.1:28380, but there have been failed providers [192.168.121.1:28380] (1/1) from the registry 192.168.121.142:2181 on the consumer 192.168.121.1 using the dubbo version 2.0.1. Last error is: Invoke remote method timeout. method: search, provider: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, cause: Waiting server-side response timeout. start time: 2018-06-27 09:51:10.311, end time: 2018-06-27 09:51:11.312, client elapsed: 0 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=8, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.121.1:59496 -> /192.168.121.1:28380, dubbo version: 2.0.1, current host: 192.168.121.1
-com.alibaba.dubbo.rpc.RpcException: Invoke remote method timeout. method: search, provider: dubbo://192.168.121.1:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=9272&register.ip=192.168.121.1&remote.timestamp=1530064079607&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530063976061, cause: Waiting server-side response timeout. start time: 2018-06-27 09:51:10.311, end time: 2018-06-27 09:51:11.312, client elapsed: 0 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=8, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.121.1:59496 -> /192.168.121.1:28380
+[INFO ] 2018-06-30 15:10:35,326 method:com.alibaba.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:273)
+ [DUBBO] Successed connect to server /192.168.83.74:28380 from NettyClient 192.168.83.74 using dubbo version 2.0.1, channel is NettyChannel [channel=[id: 0x5725731d, /192.168.83.74:52129 => /192.168.83.74:28380]], dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[INFO ] 2018-06-30 15:10:35,326 method:com.alibaba.dubbo.remoting.transport.AbstractClient.<init>(AbstractClient.java:91)
+ [DUBBO] Start NettyClient DESKTOP-81JF6DR/192.168.83.74 connect to the server /192.168.83.74:28380, dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[WARN ] 2018-06-30 15:12:30,911 method:com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.received(DefaultFuture.java:99)
+ [DUBBO] The timeout response finally returned at 2018-06-30 15:12:30.911, response Response [id=1, version=null, status=20, event=false, error=null, result=RpcResult [result=com.douby.solr.dto.SearchResult@326b21b0, exception=null]], channel: /192.168.83.74:52129 -> /192.168.83.74:28380, dubbo version: 2.0.1, current host: 192.168.83.74
+
+
+[WARN ] 2018-06-30 15:12:30,912 method:com.alibaba.dubbo.rpc.cluster.support.FailoverClusterInvoker.doInvoke(FailoverClusterInvoker.java:79)
+ [DUBBO] Although retry the method search in the service com.douby.solr.service.SolrService was successful by the provider 192.168.83.74:28380, but there have been failed providers [192.168.83.74:28380] (1/1) from the registry 192.168.121.144:2181 on the consumer 192.168.83.74 using the dubbo version 2.0.1. Last error is: Invoke remote method timeout. method: search, provider: dubbo://192.168.83.74:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=20364&register.ip=192.168.83.74&remote.timestamp=1530342634669&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342613133, cause: Waiting server-side response timeout. start time: 2018-06-30 15:12:29.642, end time: 2018-06-30 15:12:30.648, client elapsed: 5 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=1, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.83.74:52129 -> /192.168.83.74:28380, dubbo version: 2.0.1, current host: 192.168.83.74
+com.alibaba.dubbo.rpc.RpcException: Invoke remote method timeout. method: search, provider: dubbo://192.168.83.74:28380/com.douby.solr.service.SolrService?anyhost=true&application=dubbo-solr-web&check=false&dubbo=2.0.1&generic=false&interface=com.douby.solr.service.SolrService&methods=search&owner=cpzh&pid=20364&register.ip=192.168.83.74&remote.timestamp=1530342634669&revision=1.0-SNAPSHOT&side=consumer&timestamp=1530342613133, cause: Waiting server-side response timeout. start time: 2018-06-30 15:12:29.642, end time: 2018-06-30 15:12:30.648, client elapsed: 5 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=1, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.83.74:52129 -> /192.168.83.74:28380
 	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:98)
 	at com.alibaba.dubbo.rpc.protocol.AbstractInvoker.invoke(AbstractInvoker.java:142)
 	at com.alibaba.dubbo.monitor.support.MonitorFilter.invoke(MonitorFilter.java:74)
@@ -79,11 +91,11 @@ com.alibaba.dubbo.rpc.RpcException: Invoke remote method timeout. method: search
 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
 	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
 	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: com.alibaba.dubbo.remoting.TimeoutException: Waiting server-side response timeout. start time: 2018-06-27 09:51:10.311, end time: 2018-06-27 09:51:11.312, client elapsed: 0 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=8, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.121.1:59496 -> /192.168.121.1:28380
+Caused by: com.alibaba.dubbo.remoting.TimeoutException: Waiting server-side response timeout. start time: 2018-06-30 15:12:29.642, end time: 2018-06-30 15:12:30.648, client elapsed: 5 ms, server elapsed: 1001 ms, timeout: 1000 ms, request: Request [id=1, version=2.0.0, twoway=true, event=false, broken=false, data=RpcInvocation [methodName=search, parameterTypes=[class java.lang.String, int, int], arguments=[手机, 1, 20], attachments={path=com.douby.solr.service.SolrService, interface=com.douby.solr.service.SolrService, version=0.0.0}]], channel: /192.168.83.74:52129 -> /192.168.83.74:28380
 	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:134)
 	at com.alibaba.dubbo.remoting.exchange.support.DefaultFuture.get(DefaultFuture.java:111)
 	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboInvoker.doInvoke(DubboInvoker.java:95)

@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dooubycommon" />
+        <module name="doubycartproviderinterface" />
+        <module name="doubycartproviderservice" />
+        <module name="doubycartweb" />
         <module name="doubycontentdto" />
         <module name="doubycontentinterface" />
         <module name="doubycontentservice" />
@@ -19,6 +22,11 @@
         <module name="doubymanagerinterface" />
         <module name="doubymanagerpojo" />
         <module name="doubymanagerservice" />
+        <module name="doubyorderdao" />
+        <module name="doubyorderdto" />
+        <module name="doubyorderinterfaces" />
+        <module name="doubyorderservice" />
+        <module name="doubyorderweb" />
         <module name="doubysolrdao" />
         <module name="doubysolrdto" />
         <module name="doubysolrinterface" />
@@ -34,6 +42,10 @@
     <bytecodeTargetLevel>
       <module name="dooubycommon" target="1.8" />
       <module name="douby-manager-controller" target="1.8" />
+      <module name="doubycartprovider" target="1.5" />
+      <module name="doubycartproviderinterface" target="1.7" />
+      <module name="doubycartproviderservice" target="1.7" />
+      <module name="doubycartweb" target="1.7" />
       <module name="doubycontent" target="1.5" />
       <module name="doubycontentdto" target="1.8" />
       <module name="doubycontentinterface" target="1.8" />
@@ -49,6 +61,12 @@
       <module name="doubymanagerinterface" target="1.8" />
       <module name="doubymanagerpojo" target="1.8" />
       <module name="doubymanagerservice" target="1.8" />
+      <module name="doubyorderdao" target="1.8" />
+      <module name="doubyorderdto" target="1.8" />
+      <module name="doubyorderinterfaces" target="1.8" />
+      <module name="doubyorderserver" target="1.5" />
+      <module name="doubyorderservice" target="1.8" />
+      <module name="doubyorderweb" target="1.8" />
       <module name="doubyparent" target="1.5" />
       <module name="doubysolr" target="1.5" />
       <module name="doubysolrdao" target="1.8" />

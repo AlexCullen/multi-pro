@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/dooubycommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubycartprovider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubycartprovider/douby-cart-provider-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubycartweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubycontent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubycontent/doubycontentdto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubycontent/doubycontentinterface" charset="UTF-8" />
@@ -16,6 +20,12 @@
     <file url="file://$PROJECT_DIR$/doubymanager/doubymanagerpojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubymanager/doubymanagerservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubymanagercontroller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyorderserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyorderserver/douby-order-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyorderserver/douby-order-dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyorderserver/douby-order-interfaces" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyorderserver/douby-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/doubyorderweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubyparent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolr" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolr/doubysolrdao" charset="UTF-8" />
@@ -25,13 +35,9 @@
     <file url="file://$PROJECT_DIR$/doubysolr/doubysolrservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysolrweb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysso" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/doubysso/douby-sso-dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysso/douby-sso-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysso/douby-sso-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubysso/douby-sso-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/doubysso/doubyssointerface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/doubysso/doubyssopojo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/doubysso/doubyssoservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/doubyssoweb" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dooubycommon/dooubycommon.iml" filepath="$PROJECT_DIR$/dooubycommon/dooubycommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycartprovider/doubycartprovider.iml" filepath="$PROJECT_DIR$/doubycartprovider/doubycartprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycartprovider/douby-cart-provider-interface/doubycartproviderinterface.iml" filepath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-interface/doubycartproviderinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/doubycartproviderservice.iml" filepath="$PROJECT_DIR$/doubycartprovider/douby-cart-provider-service/doubycartproviderservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubycartweb/doubycartweb.iml" filepath="$PROJECT_DIR$/doubycartweb/doubycartweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontent.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontent.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentdto/doubycontentdto.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentdto/doubycontentdto.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" filepath="$PROJECT_DIR$/doubycontent/doubycontentinterface/doubycontentinterface.iml" />
@@ -17,6 +21,12 @@
       <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerinterface/doubymanagerinterface.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerinterface/doubymanagerinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerpojo/doubymanagerpojo.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerpojo/doubymanagerpojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubymanager/doubymanagerservice/doubymanagerservice.iml" filepath="$PROJECT_DIR$/doubymanager/doubymanagerservice/doubymanagerservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyorderserver/douby-order-dao/doubyorderdao.iml" filepath="$PROJECT_DIR$/doubyorderserver/douby-order-dao/doubyorderdao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyorderserver/douby-order-dto/doubyorderdto.iml" filepath="$PROJECT_DIR$/doubyorderserver/douby-order-dto/doubyorderdto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/doubyorderinterfaces.iml" filepath="$PROJECT_DIR$/doubyorderserver/douby-order-interfaces/doubyorderinterfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyorderserver/doubyorderserver.iml" filepath="$PROJECT_DIR$/doubyorderserver/doubyorderserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyorderserver/douby-order-service/doubyorderservice.iml" filepath="$PROJECT_DIR$/doubyorderserver/douby-order-service/doubyorderservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doubyorderweb/doubyorderweb.iml" filepath="$PROJECT_DIR$/doubyorderweb/doubyorderweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubyparent/doubyparent.iml" filepath="$PROJECT_DIR$/doubyparent/doubyparent.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolr.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolr.iml" />
       <module fileurl="file://$PROJECT_DIR$/doubysolr/doubysolrdao/doubysolrdao.iml" filepath="$PROJECT_DIR$/doubysolr/doubysolrdao/doubysolrdao.iml" />
